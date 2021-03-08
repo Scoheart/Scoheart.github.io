@@ -1,66 +1,269 @@
-
 <!DOCTYPE html>
-<html lang="zh-CN" class="loading">
+<html lang="zh-CN">
 <head>
-    <meta charset="UTF-8" />
-    <meta http-equiv="X-UA-Compatible" content="IE=edge,chrome=1" />
-    <meta name="viewport" content="width=device-width, minimum-scale=1.0, maximum-scale=1.0, user-scalable=no">
-    <title>How to start a blog. - Scoheart</title>
-    <meta name="apple-mobile-web-app-capable" content="yes" />
-    <meta name="apple-mobile-web-app-status-bar-style" content="black-translucent">
-    <meta name="google" content="notranslate" />
-    <meta name="keywords" content="Fechin,"> 
-    <meta name="description" content="何来人间惊鸿客不过尘世一俗人,一、Start a blog with Hexo.1.Install Node.js.Download Node.js from the official website.Check Node.js,"> 
-    <meta name="author" content="Scoheart"> 
-    <link rel="alternative" href="atom.xml" title="Scoheart" type="application/atom+xml"> 
-    <link rel="icon" href="/img/favicon.png"> 
-    
-    
-<link rel="stylesheet" href="/css/diaspora.css">
+  <meta charset="UTF-8">
+<meta name="viewport" content="width=device-width, initial-scale=1, maximum-scale=2">
+<meta name="theme-color" content="#222">
+<meta name="generator" content="Hexo 5.4.0">
 
-	<script async src="//pagead2.googlesyndication.com/pagead/js/adsbygoogle.js"></script>
-    <script>
-         (adsbygoogle = window.adsbygoogle || []).push({
-              google_ad_client: "ca-pub-8691406134231910",
-              enable_page_level_ads: true
-         });
-    </script>
-    <script async custom-element="amp-auto-ads"
-        src="https://cdn.ampproject.org/v0/amp-auto-ads-0.1.js">
-    </script>
-<meta name="generator" content="Hexo 5.4.0"></head>
 
-<body class="loading">
-    <span id="config-title" style="display:none">Scoheart</span>
-    <div id="loader"></div>
-    <div id="single">
-    <div id="top" style="display: block;">
-    <div class="bar" style="width: 0;"></div>
-    <a class="iconfont icon-home image-icon" href="javascript:;" data-url="https://Scoheart.github.io"></a>
-    <div title="播放/暂停" class="iconfont icon-play"></div>
-    <h3 class="subtitle">How to start a blog.</h3>
-    <div class="social">
-        <div>
-            <div class="share">
-                <a title="获取二维码" class="iconfont icon-scan" href="javascript:;"></a>
-            </div>
-            <div id="qr"></div>
-        </div>
+  <link rel="apple-touch-icon" sizes="180x180" href="/images/apple-touch-icon-next.png">
+  <link rel="icon" type="image/png" sizes="32x32" href="/images/favicon-32x32-next.png">
+  <link rel="icon" type="image/png" sizes="16x16" href="/images/favicon-16x16-next.png">
+  <link rel="mask-icon" href="/images/logo.svg" color="#222">
+
+<link rel="stylesheet" href="/css/main.css">
+
+
+
+<link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/@fortawesome/fontawesome-free@5.15.2/css/all.min.css">
+  <link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/animate.css@3.1.1/animate.min.css">
+
+<script class="hexo-configurations">
+    var NexT = window.NexT || {};
+    var CONFIG = {"hostname":"scoheart.github.io","root":"/","images":"/images","scheme":"Muse","version":"8.2.2","exturl":false,"sidebar":{"position":"left","display":"post","padding":18,"offset":12},"copycode":false,"bookmark":{"enable":false,"color":"#222","save":"auto"},"fancybox":false,"mediumzoom":false,"lazyload":false,"pangu":false,"comments":{"style":"tabs","active":null,"storage":true,"lazyload":false,"nav":null},"motion":{"enable":true,"async":false,"transition":{"post_block":"fadeIn","post_header":"fadeInDown","post_body":"fadeInDown","coll_header":"fadeInLeft","sidebar":"fadeInUp"}},"prism":false,"i18n":{"placeholder":"搜索...","empty":"没有找到任何搜索结果：${query}","hits_time":"找到 ${hits} 个搜索结果（用时 ${time} 毫秒）","hits":"找到 ${hits} 个搜索结果"}};
+  </script>
+<meta name="description" content="一、Start a blog with Hexo.1.Install Node.js.Download Node.js from the official website.Check Node.js using the following code  node -v npm -v   2.Install Git.Download Git from the official website.Chec">
+<meta property="og:type" content="article">
+<meta property="og:title" content="How to start a blog.">
+<meta property="og:url" content="https://scoheart.github.io/2021/03/08/2021-03-08-How-to-start-a-blog/index.html">
+<meta property="og:site_name" content="Scoheart">
+<meta property="og:description" content="一、Start a blog with Hexo.1.Install Node.js.Download Node.js from the official website.Check Node.js using the following code  node -v npm -v   2.Install Git.Download Git from the official website.Chec">
+<meta property="og:locale" content="zh_CN">
+<meta property="article:published_time" content="2021-03-07T16:00:00.000Z">
+<meta property="article:modified_time" content="2021-03-08T11:25:19.797Z">
+<meta property="article:author" content="Scoheart">
+<meta property="article:tag" content="新手">
+<meta name="twitter:card" content="summary">
+
+
+<link rel="canonical" href="https://scoheart.github.io/2021/03/08/2021-03-08-How-to-start-a-blog/">
+
+
+<script class="page-configurations">
+  // https://hexo.io/docs/variables.html
+  CONFIG.page = {
+    sidebar: "",
+    isHome : false,
+    isPost : true,
+    lang   : 'zh-CN'
+  };
+</script>
+<title>How to start a blog. | Scoheart</title>
+  
+
+
+
+
+  <noscript>
+  <style>
+  body { margin-top: 2rem; }
+
+  .use-motion .menu-item,
+  .use-motion .sidebar,
+  .use-motion .post-block,
+  .use-motion .pagination,
+  .use-motion .comments,
+  .use-motion .post-header,
+  .use-motion .post-body,
+  .use-motion .collection-header {
+    visibility: visible;
+  }
+
+  .use-motion .header,
+  .use-motion .site-brand-container .toggle,
+  .use-motion .footer { opacity: initial; }
+
+  .use-motion .site-title,
+  .use-motion .site-subtitle,
+  .use-motion .custom-logo-image {
+    opacity: initial;
+    top: initial;
+  }
+
+  .use-motion .logo-line {
+    transform: scaleX(1);
+  }
+
+  .search-pop-overlay, .sidebar-nav { display: none; }
+  .sidebar-panel { display: block; }
+  </style>
+</noscript>
+
+</head>
+
+<body itemscope itemtype="http://schema.org/WebPage" class="use-motion">
+  <div class="headband"></div>
+
+  <main class="main">
+    <header class="header" itemscope itemtype="http://schema.org/WPHeader">
+      <div class="header-inner"><div class="site-brand-container">
+  <div class="site-nav-toggle">
+    <div class="toggle" aria-label="切换导航栏" role="button">
     </div>
-    <div class="scrollbar"></div>
+  </div>
+
+  <div class="site-meta">
+
+    <a href="/" class="brand" rel="start">
+      <i class="logo-line"></i>
+      <h1 class="site-title">Scoheart</h1>
+      <i class="logo-line"></i>
+    </a>
+      <p class="site-subtitle" itemprop="description">欢迎光临我的开心</p>
+  </div>
+
+  <div class="site-nav-right">
+    <div class="toggle popup-trigger">
+    </div>
+  </div>
 </div>
 
-    <div class="section">
-        <div class="article">
-    <div class='main'>
-        <h1 class="title">How to start a blog.</h1>
-        <div class="stuff">
-            <span>三月 08, 2021</span>
-            
+
+
+
+
+
+
+</div>
+        
+  
+  <div class="toggle sidebar-toggle" role="button">
+    <span class="toggle-line"></span>
+    <span class="toggle-line"></span>
+    <span class="toggle-line"></span>
+  </div>
+
+  <aside class="sidebar">
+
+    <div class="sidebar-inner sidebar-nav-active sidebar-toc-active">
+      <ul class="sidebar-nav">
+        <li class="sidebar-nav-toc">
+          文章目录
+        </li>
+        <li class="sidebar-nav-overview">
+          站点概览
+        </li>
+      </ul>
+
+      <div class="sidebar-panel-container">
+        <!--noindex-->
+        <div class="post-toc-wrap sidebar-panel">
+            <div class="post-toc animated"><ol class="nav"><li class="nav-item nav-level-1"><a class="nav-link" href="#%E4%B8%80%E3%80%81Start-a-blog-with-Hexo"><span class="nav-number">1.</span> <span class="nav-text">一、Start a blog with Hexo.</span></a><ol class="nav-child"><li class="nav-item nav-level-2"><a class="nav-link" href="#1-Install-Node-js"><span class="nav-number">1.1.</span> <span class="nav-text">1.Install Node.js.</span></a><ol class="nav-child"><li class="nav-item nav-level-3"><a class="nav-link" href="#Download-Node-js-from-the-official-website"><span class="nav-number">1.1.1.</span> <span class="nav-text">Download Node.js from the official website.</span></a></li></ol></li><li class="nav-item nav-level-2"><a class="nav-link" href="#2-Install-Git"><span class="nav-number">1.2.</span> <span class="nav-text">2.Install Git.</span></a><ol class="nav-child"><li class="nav-item nav-level-3"><a class="nav-link" href="#Download-Git-from-the-official-website"><span class="nav-number">1.2.1.</span> <span class="nav-text">Download Git from the official website.</span></a></li></ol></li><li class="nav-item nav-level-2"><a class="nav-link" href="#3-Install-Hexo"><span class="nav-number">1.3.</span> <span class="nav-text">3.Install Hexo.</span></a><ol class="nav-child"><li class="nav-item nav-level-3"><a class="nav-link" href="#Download-Hexo-using-the-following-code"><span class="nav-number">1.3.1.</span> <span class="nav-text">Download Hexo using the following code.</span></a></li></ol></li><li class="nav-item nav-level-2"><a class="nav-link" href="#4-Initialize-Hexo"><span class="nav-number">1.4.</span> <span class="nav-text">4. Initialize Hexo</span></a></li><li class="nav-item nav-level-2"><a class="nav-link" href="#5-Web-page-preview"><span class="nav-number">1.5.</span> <span class="nav-text">5. Web page preview</span></a></li><li class="nav-item nav-level-2"><a class="nav-link" href="#6-Deploy-to-github-pages"><span class="nav-number">1.6.</span> <span class="nav-text">6. Deploy to github pages</span></a></li></ol></li></ol></div>
+        </div>
+        <!--/noindex-->
+
+        <div class="site-overview-wrap sidebar-panel">
+          <div class="site-author site-overview-item animated" itemprop="author" itemscope itemtype="http://schema.org/Person">
+  <p class="site-author-name" itemprop="name">Scoheart</p>
+  <div class="site-description" itemprop="description">何来人间惊鸿客不过尘世一俗人</div>
+</div>
+<div class="site-state-wrap site-overview-item animated">
+  <nav class="site-state">
+      <div class="site-state-item site-state-posts">
+          <a href="/archives">
+          <span class="site-state-item-count">2</span>
+          <span class="site-state-item-name">日志</span>
+        </a>
+      </div>
+      <div class="site-state-item site-state-categories">
+            <a href="/categories/">
+        <span class="site-state-item-count">2</span>
+        <span class="site-state-item-name">分类</span></a>
+      </div>
+      <div class="site-state-item site-state-tags">
+            <a href="/tags/">
+        <span class="site-state-item-count">1</span>
+        <span class="site-state-item-name">标签</span></a>
+      </div>
+  </nav>
+</div>
+
+
 
         </div>
-        <div class="content markdown">
-            <h1 id="一、Start-a-blog-with-Hexo"><a href="#一、Start-a-blog-with-Hexo" class="headerlink" title="一、Start a blog with Hexo."></a><strong>一、Start a blog with Hexo.</strong></h1><h2 id="1-Install-Node-js"><a href="#1-Install-Node-js" class="headerlink" title="1.Install Node.js."></a><strong>1.Install Node.js.</strong></h2><h3 id="Download-Node-js-from-the-official-website"><a href="#Download-Node-js-from-the-official-website" class="headerlink" title="Download Node.js from the official website."></a><strong>Download Node.js from the official website.</strong></h3><p><strong>Check Node.js using the following code</strong></p>
+      </div>
+    </div>
+  </aside>
+  <div class="sidebar-dimmer"></div>
+
+
+    </header>
+
+    
+  <div class="back-to-top" role="button">
+    <i class="fa fa-arrow-up"></i>
+    <span>0%</span>
+  </div>
+
+<noscript>
+  <div class="noscript-warning">Theme NexT works best with JavaScript enabled</div>
+</noscript>
+
+
+    <div class="main-inner post posts-expand">
+
+
+  
+
+
+<div class="post-block">
+  
+  
+
+  <article itemscope itemtype="http://schema.org/Article" class="post-content" lang="zh-CN">
+    <link itemprop="mainEntityOfPage" href="https://scoheart.github.io/2021/03/08/2021-03-08-How-to-start-a-blog/">
+
+    <span hidden itemprop="author" itemscope itemtype="http://schema.org/Person">
+      <meta itemprop="image" content="/images/avatar.gif">
+      <meta itemprop="name" content="Scoheart">
+      <meta itemprop="description" content="何来人间惊鸿客不过尘世一俗人">
+    </span>
+
+    <span hidden itemprop="publisher" itemscope itemtype="http://schema.org/Organization">
+      <meta itemprop="name" content="Scoheart">
+    </span>
+      <header class="post-header">
+        <h1 class="post-title" itemprop="name headline">
+          How to start a blog.
+        </h1>
+
+        <div class="post-meta-container">
+          <div class="post-meta">
+    <span class="post-meta-item">
+      <span class="post-meta-item-icon">
+        <i class="far fa-calendar"></i>
+      </span>
+      <span class="post-meta-item-text">发表于</span>
+      
+
+      <time title="创建时间：2021-03-08 00:00:00 / 修改时间：19:25:19" itemprop="dateCreated datePublished" datetime="2021-03-08T00:00:00+08:00">2021-03-08</time>
+    </span>
+    <span class="post-meta-item">
+      <span class="post-meta-item-icon">
+        <i class="far fa-folder"></i>
+      </span>
+      <span class="post-meta-item-text">分类于</span>
+        <span itemprop="about" itemscope itemtype="http://schema.org/Thing">
+          <a href="/categories/blog/" itemprop="url" rel="index"><span itemprop="name">blog</span></a>
+        </span>
+          ，
+        <span itemprop="about" itemscope itemtype="http://schema.org/Thing">
+          <a href="/categories/blog/myblog/" itemprop="url" rel="index"><span itemprop="name">myblog</span></a>
+        </span>
+    </span>
+
+  
+</div>
+
+        </div>
+      </header>
+
+    
+    
+    
+    <div class="post-body" itemprop="articleBody">
+        <h1 id="一、Start-a-blog-with-Hexo"><a href="#一、Start-a-blog-with-Hexo" class="headerlink" title="一、Start a blog with Hexo."></a><strong>一、Start a blog with Hexo.</strong></h1><h2 id="1-Install-Node-js"><a href="#1-Install-Node-js" class="headerlink" title="1.Install Node.js."></a><strong>1.Install Node.js.</strong></h2><h3 id="Download-Node-js-from-the-official-website"><a href="#Download-Node-js-from-the-official-website" class="headerlink" title="Download Node.js from the official website."></a><strong>Download Node.js from the official website.</strong></h3><p><strong>Check Node.js using the following code</strong></p>
 <ul>
 <li><strong>node -v</strong></li>
 <li><strong>npm -v</strong></li>
@@ -134,7 +337,7 @@
 <blockquote>
 <p><strong>Check  using the following code</strong></p>
 <ul>
-<li><strong>ssh -T <a href="mailto:&#x67;&#x69;&#116;&#64;&#x67;&#x69;&#116;&#104;&#x75;&#x62;&#46;&#x63;&#111;&#109;">&#x67;&#x69;&#116;&#64;&#x67;&#x69;&#116;&#104;&#x75;&#x62;&#46;&#x63;&#111;&#109;</a></strong></li>
+<li><strong>ssh -T <a href="mailto:&#103;&#x69;&#x74;&#x40;&#103;&#105;&#116;&#104;&#x75;&#98;&#x2e;&#x63;&#x6f;&#x6d;">&#103;&#x69;&#x74;&#x40;&#103;&#105;&#116;&#104;&#x75;&#98;&#x2e;&#x63;&#x6f;&#x6d;</a></strong></li>
 </ul>
 </blockquote>
 <ul>
@@ -164,112 +367,96 @@
 <p><strong><a target="_blank" rel="noopener" href="https://1487790559.github.io/">https://1487790559.github.io</a></strong></p>
 </blockquote>
 
-            <!--[if lt IE 9]><script>document.createElement('audio');</script><![endif]-->
-            <audio id="audio" loop="1" preload="auto" controls="controls" data-autoplay="false">
-                <source type="audio/mpeg" src="">
-            </audio>
-            
-                <ul id="audio-list" style="display:none">
-                    
-                        
-                            <li title='0' data-url='http://link.hhtjim.com/163/425570952.mp3'></li>
-                        
-                    
-                        
-                            <li title='1' data-url='http://link.hhtjim.com/163/425570952.mp3'></li>
-                        
-                    
-                </ul>
-            
-        </div>
-        
-    <div id='gitalk-container' class="comment link"
-		data-enable='false'
-        data-ae='false'
-        data-ci=''
-        data-cs=''
-        data-r=''
-        data-o=''
-        data-a=''
-        data-d='false'
-    >查看评论</div>
-
-
     </div>
+
     
+    
+    
+
+    <footer class="post-footer">
+          <div class="post-tags">
+              <a href="/tags/%E6%96%B0%E6%89%8B/" rel="tag"># 新手</a>
+          </div>
+
+        
+
+          <div class="post-nav">
+            <div class="post-nav-item">
+                <a href="/2021/03/08/2021-03-08-%E5%A6%82%E4%BD%95%E6%90%AD%E5%BB%BA%E4%B8%AA%E4%BA%BA%E5%8D%9A%E5%AE%A2/" rel="prev" title="如何搭建个人博客">
+                  <i class="fa fa-chevron-left"></i> 如何搭建个人博客
+                </a>
+            </div>
+            <div class="post-nav-item">
+            </div>
+          </div>
+    </footer>
+  </article>
 </div>
 
+
+
+
+
+
+
+<script>
+  window.addEventListener('tabs:register', () => {
+    let { activeClass } = CONFIG.comments;
+    if (CONFIG.comments.storage) {
+      activeClass = localStorage.getItem('comments_active') || activeClass;
+    }
+    if (activeClass) {
+      const activeTab = document.querySelector(`a[href="#comment-${activeClass}"]`);
+      if (activeTab) {
+        activeTab.click();
+      }
+    }
+  });
+  if (CONFIG.comments.storage) {
+    window.addEventListener('tabs:click', event => {
+      if (!event.target.matches('.tabs-comment .tab-content .tab-pane')) return;
+      const commentClass = event.target.classList[1];
+      localStorage.setItem('comments_active', commentClass);
+    });
+  }
+</script>
+</div>
+  </main>
+
+  <footer class="footer">
+    <div class="footer-inner">
+
+
+<div class="copyright">
+  &copy; 
+  <span itemprop="copyrightYear">2021</span>
+  <span class="with-love">
+    <i class="fa fa-heart"></i>
+  </span>
+  <span class="author" itemprop="copyrightHolder">Scoheart</span>
+</div>
+  <div class="powered-by">由 <a href="https://hexo.io/" class="theme-link" rel="noopener" target="_blank">Hexo</a> & <a href="https://theme-next.js.org/muse/" class="theme-link" rel="noopener" target="_blank">NexT.Muse</a> 强力驱动
+  </div>
 
     </div>
-</div>
+  </footer>
+
+  
+  <script src="https://cdn.jsdelivr.net/npm/animejs@3.2.1/lib/anime.min.js"></script>
+<script src="/js/utils.js"></script><script src="/js/motion.js"></script><script src="/js/schemes/muse.js"></script><script src="/js/next-boot.js"></script>
+
+  
+
+
+
+
+
+
+  
+
+
+
+
+
 </body>
-
-
-<script src="//lib.baomitu.com/jquery/1.8.3/jquery.min.js"></script>
-<script src="/js/plugin.js"></script>
-<script src="/js/typed.js"></script>
-<script src="/js/diaspora.js"></script>
-
-
-<link rel="stylesheet" href="/photoswipe/photoswipe.css">
-<link rel="stylesheet" href="/photoswipe/default-skin/default-skin.css">
-
-
-<script src="/photoswipe/photoswipe.min.js"></script>
-<script src="/photoswipe/photoswipe-ui-default.min.js"></script>
-
-
-<!-- Root element of PhotoSwipe. Must have class pswp. -->
-<div class="pswp" tabindex="-1" role="dialog" aria-hidden="true">
-    <!-- Background of PhotoSwipe. 
-         It's a separate element as animating opacity is faster than rgba(). -->
-    <div class="pswp__bg"></div>
-    <!-- Slides wrapper with overflow:hidden. -->
-    <div class="pswp__scroll-wrap">
-        <!-- Container that holds slides. 
-            PhotoSwipe keeps only 3 of them in the DOM to save memory.
-            Don't modify these 3 pswp__item elements, data is added later on. -->
-        <div class="pswp__container">
-            <div class="pswp__item"></div>
-            <div class="pswp__item"></div>
-            <div class="pswp__item"></div>
-        </div>
-        <!-- Default (PhotoSwipeUI_Default) interface on top of sliding area. Can be changed. -->
-        <div class="pswp__ui pswp__ui--hidden">
-            <div class="pswp__top-bar">
-                <!--  Controls are self-explanatory. Order can be changed. -->
-                <div class="pswp__counter"></div>
-                <button class="pswp__button pswp__button--close" title="Close (Esc)"></button>
-                <button class="pswp__button pswp__button--share" title="Share"></button>
-                <button class="pswp__button pswp__button--fs" title="Toggle fullscreen"></button>
-                <button class="pswp__button pswp__button--zoom" title="Zoom in/out"></button>
-                <!-- Preloader demo http://codepen.io/dimsemenov/pen/yyBWoR -->
-                <!-- element will get class pswp__preloader--active when preloader is running -->
-                <div class="pswp__preloader">
-                    <div class="pswp__preloader__icn">
-                      <div class="pswp__preloader__cut">
-                        <div class="pswp__preloader__donut"></div>
-                      </div>
-                    </div>
-                </div>
-            </div>
-            <div class="pswp__share-modal pswp__share-modal--hidden pswp__single-tap">
-                <div class="pswp__share-tooltip"></div> 
-            </div>
-            <button class="pswp__button pswp__button--arrow--left" title="Previous (arrow left)">
-            </button>
-            <button class="pswp__button pswp__button--arrow--right" title="Next (arrow right)">
-            </button>
-            <div class="pswp__caption">
-                <div class="pswp__caption__center"></div>
-            </div>
-        </div>
-    </div>
-</div>
-
-
-
-
-
-
 </html>
