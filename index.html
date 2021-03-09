@@ -111,7 +111,7 @@
       <h1 class="site-title">Scoheart</h1>
       <i class="logo-line"></i>
     </a>
-      <p class="site-subtitle" itemprop="description">欢迎光临我的开心</p>
+      <p class="site-subtitle" itemprop="description">欢迎光临 我的开心</p>
   </div>
 
   <div class="site-nav-right">
@@ -131,7 +131,8 @@
         <li class="menu-item menu-item-archives"><a href="/archives/" rel="section"><i class="fa fa-archive fa-fw"></i>归档</a></li>
         <li class="menu-item menu-item-schedule"><a href="/schedule/" rel="section"><i class="fa fa-calendar fa-fw"></i>日程表</a></li>
         <li class="menu-item menu-item-sitemap"><a href="/sitemap.xml" rel="section"><i class="fa fa-sitemap fa-fw"></i>站点地图</a></li>
-        <li class="menu-item menu-item-commonweal"><a href="/404/" rel="section"><i class="fa fa-heartbea fa-fw"></i>公益 404</a></li>
+        <li class="menu-item menu-item-commonweal"><a href="/404/" rel="section"><i class="fa fa-heartbeat fa-fw"></i>公益 404</a></li>
+        <li class="menu-item menu-item-photos"><a href="/photos/" rel="section"><i class="fa fa-photon-dark fa-fw"></i>相册</a></li>
   </ul>
 </nav>
 
@@ -175,7 +176,7 @@
       <div class="site-state-item site-state-posts">
           <a href="/archives/">
         
-          <span class="site-state-item-count">3</span>
+          <span class="site-state-item-count">4</span>
           <span class="site-state-item-name">日志</span>
         </a>
       </div>
@@ -230,6 +231,7 @@
     <i class="fa fa-arrow-up"></i>
     <span>0%</span>
   </div>
+  <div class="reading-progress-bar"></div>
 
 <noscript>
   <div class="noscript-warning">Theme NexT works best with JavaScript enabled</div>
@@ -246,7 +248,7 @@
   
 
   <article itemscope itemtype="http://schema.org/Article" class="post-content" lang="">
-    <link itemprop="mainEntityOfPage" href="https://scoheart.github.io/2021/03/08/2021-03-08-How-to-start-a-blog/">
+    <link itemprop="mainEntityOfPage" href="https://scoheart.github.io/2021/03/09/2021-03-09-Hexo%E9%85%8D%E7%BD%AE%E6%96%87%E4%BB%B6%E8%A7%A3%E8%AF%BB/">
 
     <span hidden itemprop="author" itemscope itemtype="http://schema.org/Person">
       <meta itemprop="image" content="/images/avatar.gif">
@@ -259,7 +261,7 @@
     </span>
       <header class="post-header">
         <h2 class="post-title" itemprop="name headline">
-          <a href="/2021/03/08/2021-03-08-How-to-start-a-blog/" class="post-title-link" itemprop="url">How to start a blog.</a>
+          <a href="/2021/03/09/2021-03-09-Hexo%E9%85%8D%E7%BD%AE%E6%96%87%E4%BB%B6%E8%A7%A3%E8%AF%BB/" class="post-title-link" itemprop="url">Hexo配置文件解读</a>
         </h2>
 
         <div class="post-meta-container">
@@ -271,7 +273,7 @@
       <span class="post-meta-item-text">发表于</span>
       
 
-      <time title="创建时间：2021-03-08 00:00:00 / 修改时间：20:51:17" itemprop="dateCreated datePublished" datetime="2021-03-08T00:00:00+08:00">2021-03-08</time>
+      <time title="创建时间：2021-03-09 00:00:00 / 修改时间：20:33:49" itemprop="dateCreated datePublished" datetime="2021-03-09T00:00:00+08:00">2021-03-09</time>
     </span>
     <span class="post-meta-item">
       <span class="post-meta-item-icon">
@@ -293,110 +295,15 @@
     
     
     <div class="post-body" itemprop="articleBody">
-          <h1 id="一、Start-a-blog-with-Hexo"><a href="#一、Start-a-blog-with-Hexo" class="headerlink" title="一、Start a blog with Hexo."></a><strong>一、Start a blog with Hexo.</strong></h1><h2 id="1-Install-Node-js"><a href="#1-Install-Node-js" class="headerlink" title="1.Install Node.js."></a><strong>1.Install Node.js.</strong></h2><h3 id="Download-Node-js-from-the-official-website"><a href="#Download-Node-js-from-the-official-website" class="headerlink" title="Download Node.js from the official website."></a><strong>Download Node.js from the official website.</strong></h3><p><strong>Check Node.js using the following code</strong></p>
-<ul>
-<li><strong>node -v</strong></li>
-<li><strong>npm -v</strong></li>
-</ul>
-<hr>
-<h2 id="2-Install-Git"><a href="#2-Install-Git" class="headerlink" title="2.Install Git."></a><strong>2.Install Git.</strong></h2><h3 id="Download-Git-from-the-official-website"><a href="#Download-Git-from-the-official-website" class="headerlink" title="Download Git from the official website."></a><strong>Download Git from the official website.</strong></h3><p><strong>Check Git using the following code</strong></p>
-<ul>
-<li><strong>git –version</strong></li>
-</ul>
-<hr>
-<h2 id="3-Install-Hexo"><a href="#3-Install-Hexo" class="headerlink" title="3.Install Hexo."></a><strong>3.Install Hexo.</strong></h2><h3 id="Download-Hexo-using-the-following-code"><a href="#Download-Hexo-using-the-following-code" class="headerlink" title="Download Hexo using the following code."></a><strong>Download Hexo using the following code.</strong></h3><ul>
-<li><strong>npm install -g hexo–cli</strong></li>
-</ul>
-<p><strong>Check Hexo using the following code</strong></p>
-<ul>
-<li><strong>hexo -v</strong></li>
-</ul>
-<hr>
-<h2 id="4-Initialize-Hexo"><a href="#4-Initialize-Hexo" class="headerlink" title="4. Initialize Hexo."></a><strong>4. Initialize Hexo.</strong></h2><ul>
-<li><p><strong>Create a floder（eg. name= “blog”）</strong></p>
-</li>
-<li><p><strong>git bash/ cmd  —— blog</strong></p>
-</li>
-</ul>
-<blockquote>
-<p><strong>hexo init “floder” (eg. name= “myblog”)</strong></p>
-<p><strong>cd “floder”</strong></p>
-<p><strong>npm install</strong></p>
-</blockquote>
-<hr>
-<h2 id="5-Web-page-preview"><a href="#5-Web-page-preview" class="headerlink" title="5. Web page preview"></a><strong>5. Web page preview</strong></h2><ul>
-<li><p><strong>hexo generate (Generating the static web page)</strong></p>
-</li>
-<li><p><strong>hexo server (The preview page)</strong></p>
-</li>
-<li><p><strong><a target="_blank" rel="noopener" href="http://localhost:4000/">http://localhost:4000</a></strong></p>
-</li>
-</ul>
-<hr>
-<h2 id="6-Deploy-to-github-pages"><a href="#6-Deploy-to-github-pages" class="headerlink" title="6. Deploy to github pages"></a><strong>6. Deploy to github pages</strong></h2><ul>
-<li><strong>create a github account</strong></li>
-<li><strong>cerate a new repository</strong></li>
-</ul>
-<blockquote>
-<p><strong>repository name= “username.github.io”</strong></p>
-</blockquote>
-<ul>
-<li><strong>generate SSH in git bash</strong></li>
-</ul>
-<blockquote>
-<p><strong>git config –global user.name “yourname”</strong></p>
-<p><strong>git config –global user.email “youremail”</strong></p>
-<blockquote>
-<p><strong>Check  using the following code</strong></p>
-<ul>
-<li><strong>git config user.name</strong></li>
-<li><strong>git config user.email</strong></li>
-</ul>
-</blockquote>
-<p><strong>ssh-keygen -t rsa -C “youremail”</strong></p>
-</blockquote>
-<ul>
-<li><strong>get the ssh public key</strong></li>
-</ul>
-<blockquote>
-<p><strong>C/user/yourname/.ssh/id_rsa.pub</strong></p>
-</blockquote>
-<ul>
-<li><strong>paste to github</strong></li>
-</ul>
-<blockquote>
-<p><strong>Check  using the following code</strong></p>
-<ul>
-<li><strong>ssh -T <a href="mailto:&#103;&#105;&#116;&#x40;&#x67;&#105;&#x74;&#104;&#x75;&#98;&#x2e;&#99;&#111;&#x6d;">&#103;&#105;&#116;&#x40;&#x67;&#105;&#x74;&#104;&#x75;&#98;&#x2e;&#99;&#111;&#x6d;</a></strong></li>
-</ul>
-</blockquote>
-<ul>
-<li><strong>modify site file</strong></li>
-</ul>
-<blockquote>
-<p><strong>_config.yml</strong></p>
-<blockquote>
-<p><strong>deploy:</strong></p>
-<p>​    <strong>type: git</strong></p>
-<p>​    <strong>repo: <a target="_blank" rel="noopener" href="https://github.com/yourname/yourname.github.io.git">https://github.com/yourname/yourname.github.io.git</a></strong></p>
-<p>​    <strong>branch: main</strong></p>
-</blockquote>
-</blockquote>
-<ul>
-<li><strong>install deploy-git</strong></li>
-</ul>
-<blockquote>
-<p><strong>npm install hexo-deployer-git –save</strong></p>
-</blockquote>
-<ul>
-<li><strong>deploy</strong></li>
-</ul>
-<blockquote>
-<p><strong>hexo generate</strong></p>
-<p><strong>hexo deploy</strong></p>
-<p><strong><a target="_blank" rel="noopener" href="https://1487790559.github.io/">https://1487790559.github.io</a></strong></p>
-</blockquote>
-
+          <p>site、menu等标签解读</p>
+          <!--noindex-->
+            <div class="post-button">
+              <a class="btn" href="/2021/03/09/2021-03-09-Hexo%E9%85%8D%E7%BD%AE%E6%96%87%E4%BB%B6%E8%A7%A3%E8%AF%BB/">
+                阅读全文 &raquo;
+              </a>
+            </div>
+          <!--/noindex-->
+        
       
     </div>
 
@@ -445,10 +352,16 @@
         <i class="far fa-calendar"></i>
       </span>
       <span class="post-meta-item-text">发表于</span>
-      
 
-      <time title="创建时间：2021-03-08 00:00:00 / 修改时间：20:51:29" itemprop="dateCreated datePublished" datetime="2021-03-08T00:00:00+08:00">2021-03-08</time>
+      <time title="创建时间：2021-03-08 00:00:00" itemprop="dateCreated datePublished" datetime="2021-03-08T00:00:00+08:00">2021-03-08</time>
     </span>
+      <span class="post-meta-item">
+        <span class="post-meta-item-icon">
+          <i class="far fa-calendar-check"></i>
+        </span>
+        <span class="post-meta-item-text">更新于</span>
+        <time title="修改时间：2021-03-09 19:54:24" itemprop="dateModified" datetime="2021-03-09T19:54:24+08:00">2021-03-09</time>
+      </span>
     <span class="post-meta-item">
       <span class="post-meta-item-icon">
         <i class="far fa-folder"></i>
@@ -469,32 +382,15 @@
     
     
     <div class="post-body" itemprop="articleBody">
-          <h1 id="添加分类"><a href="#添加分类" class="headerlink" title="添加分类"></a>添加分类</h1><ul>
-<li>根目录下 git bash</li>
-<li><code>hexo new page categories</code></li>
-<li>给文章加上categories: xxx</li>
-</ul>
-<h1 id="添加标签"><a href="#添加标签" class="headerlink" title="添加标签"></a>添加标签</h1><ul>
-<li>根目录下 git bash</li>
-<li><code>hexo new page tags</code></li>
-<li>tags: xxx</li>
-<li>给文章加上categories: xxx</li>
-</ul>
-<h1 id="更换主题"><a href="#更换主题" class="headerlink" title="更换主题"></a>更换主题</h1><ul>
-<li>浏览主题</li>
-<li>点击喜欢的主题的标题进入github下载界面</li>
-<li>下载主题源代码目录</li>
-<li>移至博客themes文件夹下并改名</li>
-<li>将站点配置文件中的theme改为将要使用的主题</li>
-</ul>
-<h1 id="添加社交网站链接"><a href="#添加社交网站链接" class="headerlink" title="添加社交网站链接"></a>添加社交网站链接</h1><ul>
-<li>进入主题配置文件</li>
-<li>在social标签下添加各种社交网站链接</li>
-</ul>
-<h1 id="添加社交网站链接图标"><a href="#添加社交网站链接图标" class="headerlink" title="添加社交网站链接图标"></a>添加社交网站链接图标</h1><ul>
-<li>在网站链接后面加 || fab fa-xxxxx</li>
-</ul>
-
+          <p>添加标签、分类等。</p>
+          <!--noindex-->
+            <div class="post-button">
+              <a class="btn" href="/2021/03/08/2021-03-08-%E5%8D%9A%E5%AE%A2%E5%90%8E%E7%BB%AD%E8%B7%9F%E8%BF%9B/">
+                阅读全文 &raquo;
+              </a>
+            </div>
+          <!--/noindex-->
+        
       
     </div>
 
@@ -512,159 +408,9 @@
 
 
 
-    
-
-
-<div class="post-block">
-  
-  
-
-  <article itemscope itemtype="http://schema.org/Article" class="post-content" lang="">
-    <link itemprop="mainEntityOfPage" href="https://scoheart.github.io/2021/03/08/2021-03-08-%E5%A6%82%E4%BD%95%E6%90%AD%E5%BB%BA%E4%B8%AA%E4%BA%BA%E5%8D%9A%E5%AE%A2/">
-
-    <span hidden itemprop="author" itemscope itemtype="http://schema.org/Person">
-      <meta itemprop="image" content="/images/avatar.gif">
-      <meta itemprop="name" content="Scoheart">
-      <meta itemprop="description" content="何来人间惊鸿客不过尘世一俗人">
-    </span>
-
-    <span hidden itemprop="publisher" itemscope itemtype="http://schema.org/Organization">
-      <meta itemprop="name" content="Scoheart">
-    </span>
-      <header class="post-header">
-        <h2 class="post-title" itemprop="name headline">
-          <a href="/2021/03/08/2021-03-08-%E5%A6%82%E4%BD%95%E6%90%AD%E5%BB%BA%E4%B8%AA%E4%BA%BA%E5%8D%9A%E5%AE%A2/" class="post-title-link" itemprop="url">如何搭建个人博客</a>
-        </h2>
-
-        <div class="post-meta-container">
-          <div class="post-meta">
-    <span class="post-meta-item">
-      <span class="post-meta-item-icon">
-        <i class="far fa-calendar"></i>
-      </span>
-      <span class="post-meta-item-text">发表于</span>
-      
-
-      <time title="创建时间：2021-03-08 00:00:00 / 修改时间：20:50:55" itemprop="dateCreated datePublished" datetime="2021-03-08T00:00:00+08:00">2021-03-08</time>
-    </span>
-    <span class="post-meta-item">
-      <span class="post-meta-item-icon">
-        <i class="far fa-folder"></i>
-      </span>
-      <span class="post-meta-item-text">分类于</span>
-        <span itemprop="about" itemscope itemtype="http://schema.org/Thing">
-          <a href="/categories/blog/" itemprop="url" rel="index"><span itemprop="name">blog</span></a>
-        </span>
-    </span>
-
-  
-</div>
-
-        </div>
-      </header>
-
-    
-    
-    
-    <div class="post-body" itemprop="articleBody">
-          <h1 id="一、使用Hexo搭建博客"><a href="#一、使用Hexo搭建博客" class="headerlink" title="一、使用Hexo搭建博客"></a><strong>一、使用Hexo搭建博客</strong></h1><h2 id="1-安装Node-js。"><a href="#1-安装Node-js。" class="headerlink" title="1.安装Node.js。"></a><strong>1.安装Node.js。</strong></h2><h3 id="从官网下载Node-js"><a href="#从官网下载Node-js" class="headerlink" title="从官网下载Node.js"></a>从官网下载Node.js</h3><p><strong>注：使用下面的代码检查Node.js的安装</strong></p>
-<p><code>node -v</code></p>
-<p><code>npm -v</code></p>
-<hr>
-<h2 id="2-安装Git。"><a href="#2-安装Git。" class="headerlink" title="2.安装Git。"></a>2.安装Git。</h2><h3 id="从官网下载Git"><a href="#从官网下载Git" class="headerlink" title="从官网下载Git"></a>从官网下载Git</h3><p><strong>注：使用下面的代码检查Git的安装</strong></p>
-<p><code>git --version</code></p>
-<hr>
-<h2 id="3-安装Hexo。"><a href="#3-安装Hexo。" class="headerlink" title="3.安装Hexo。"></a><strong>3.安装Hexo。</strong></h2><h3 id="使用下面的代码下载Hexo"><a href="#使用下面的代码下载Hexo" class="headerlink" title="使用下面的代码下载Hexo"></a>使用下面的代码下载Hexo</h3><p><code>npm install -g hexo--cli</code></p>
-<p><strong>注：使用下面的代码检查Hexo的安装</strong></p>
-<p><code>hexo -v</code></p>
-<hr>
-<h2 id="4-初始化Hexo。"><a href="#4-初始化Hexo。" class="headerlink" title="4. 初始化Hexo。"></a>4. 初始化Hexo。</h2><ul>
-<li><strong>创建一个新文件夹 于其中搭建博客（例：文件夹 “blog”）</strong></li>
-<li><strong>在此文件夹下以Git bash 打开（或者cmd 等等）</strong></li>
-<li><strong>运行下列命令搭建博客</strong></li>
-</ul>
-<p><code>hexo init &quot;floder&quot;</code> <strong>(例：文件夹 “myblog”)</strong></p>
-<p><code>cd &quot;floder&quot;</code></p>
-<p><code>npm install</code></p>
-<hr>
-<h2 id="5-个人博客页面预览"><a href="#5-个人博客页面预览" class="headerlink" title="5. 个人博客页面预览"></a><strong>5. 个人博客页面预览</strong></h2><p><code>hexo generate</code> <strong>(生成静态博客页面)</strong></p>
-<p><code>hexo server</code> <strong>(预览静态博客页面)</strong></p>
-<ul>
-<li><strong>以此本地地址进入静态博客页面</strong></li>
-</ul>
-<blockquote>
-<p> <strong><a target="_blank" rel="noopener" href="http://localhost:4000/">http://localhost:4000</a></strong></p>
-</blockquote>
-<hr>
-<h2 id="6-部署博客页面至Github"><a href="#6-部署博客页面至Github" class="headerlink" title="6. 部署博客页面至Github"></a><strong>6. 部署博客页面至Github</strong></h2><ul>
-<li><p><strong>创建一个Github账户</strong></p>
-</li>
-<li><p><strong>新建一个仓库（例：”Username.github.io” 注：必须用此格式）</strong></p>
-</li>
-<li><p><strong>生成SSH秘钥</strong></p>
-</li>
-</ul>
-<p><code>git config --global user.name &quot;yourname&quot;</code></p>
-<p><code>git config --global user.email &quot;youremail&quot;</code></p>
-<p><strong>注：使用下面代码检查账户邮箱输入</strong></p>
-<blockquote>
-<p><code>git config user.name</code></p>
-<p><code>git config user.email</code></p>
-</blockquote>
-<p><code>ssh-keygen -t rsa -C &quot;youremail&quot;</code></p>
-<ul>
-<li><strong>从下面路径获取秘钥</strong></li>
-</ul>
-<blockquote>
-<p><strong>C/user/yourname/.ssh/id_rsa.pub</strong></p>
-</blockquote>
-<ul>
-<li><strong>将秘钥粘贴至Github</strong></li>
-</ul>
-<p><strong>注：使用下面的代码检查秘钥的上传</strong></p>
-<p><code>ssh -T git@github.com</code></p>
-<ul>
-<li><strong>修改站点配置文件中的deploy标签 （名为”_config.yml”的文件）</strong></li>
-</ul>
-<blockquote>
-<p><strong>deploy:</strong></p>
-<p>​        <strong>type: git</strong></p>
-<p>​        <strong>repo: <a target="_blank" rel="noopener" href="https://github.com/yourname/yourname.github.io.git">https://github.com/yourname/yourname.github.io.git</a></strong></p>
-<p>​        <strong>branch: main</strong></p>
-</blockquote>
-<ul>
-<li><strong>安装deploy-git</strong></li>
-</ul>
-<p><code>npm install hexo-deployer-git --save</code></p>
-<ul>
-<li><strong>部署博客至Github</strong></li>
-</ul>
-<p><code>hexo generate</code></p>
-<p><code>hexo deploy</code></p>
-<ul>
-<li><strong>以此网页地址进入博客页面</strong></li>
-</ul>
-<blockquote>
-<p><strong><a target="_blank" rel="noopener" href="https://1487790559.github.io/">https://1487790559.github.io</a></strong></p>
-</blockquote>
-
-      
-    </div>
-
-    
-    
-    
-
-    <footer class="post-footer">
-        <div class="post-eof"></div>
-      
-    </footer>
-  </article>
-</div>
-
-
-
-
+  <nav class="pagination">
+    <span class="page-number current">1</span><a class="page-number" href="/page/2/">2</a><a class="extend next" rel="next" href="/page/2/"><i class="fa fa-angle-right" aria-label="下一页"></i></a>
+  </nav>
 
 
 <script>
