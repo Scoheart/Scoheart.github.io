@@ -23,19 +23,21 @@
     var NexT = window.NexT || {};
     var CONFIG = {"hostname":"scoheart.github.io","root":"/","images":"/images","scheme":"Muse","version":"8.2.2","exturl":false,"sidebar":{"position":"right","display":"post","padding":18,"offset":12},"copycode":false,"bookmark":{"enable":true,"color":"#222","save":"auto"},"fancybox":false,"mediumzoom":false,"lazyload":false,"pangu":false,"comments":{"style":"tabs","active":"disqus","storage":true,"lazyload":false,"nav":null},"motion":{"enable":true,"async":false,"transition":{"post_block":"fadeIn","post_header":"fadeInDown","post_body":"fadeInDown","coll_header":"fadeInLeft","sidebar":"fadeInUp"}},"prism":false,"i18n":{"placeholder":"搜索...","empty":"没有找到任何搜索结果：${query}","hits_time":"找到 ${hits} 个搜索结果（用时 ${time} 毫秒）","hits":"找到 ${hits} 个搜索结果"}};
   </script>
-<meta name="description" content="何来人间惊鸿客，不过尘世一俗人。">
-<meta property="og:type" content="website">
-<meta property="og:title" content="Scoheart">
-<meta property="og:url" content="https://scoheart.github.io/archives/index.html">
+<meta name="description" content="标签解读">
+<meta property="og:type" content="article">
+<meta property="og:title" content="next配置文件解读">
+<meta property="og:url" content="https://scoheart.github.io/2021/03/10/2021-03-10-next%E9%85%8D%E7%BD%AE%E6%96%87%E4%BB%B6%E8%A7%A3%E8%AF%BB/index.html">
 <meta property="og:site_name" content="Scoheart">
-<meta property="og:description" content="何来人间惊鸿客，不过尘世一俗人。">
+<meta property="og:description" content="标签解读">
 <meta property="og:locale" content="zh_CN">
+<meta property="article:published_time" content="2021-03-09T16:00:00.000Z">
+<meta property="article:modified_time" content="2021-03-10T12:15:01.274Z">
 <meta property="article:author" content="Scoheart">
 <meta property="article:tag" content="computer">
 <meta name="twitter:card" content="summary">
 
 
-<link rel="canonical" href="https://scoheart.github.io/archives/">
+<link rel="canonical" href="https://scoheart.github.io/2021/03/10/2021-03-10-next%E9%85%8D%E7%BD%AE%E6%96%87%E4%BB%B6%E8%A7%A3%E8%AF%BB/">
 
 
 <script class="page-configurations">
@@ -43,11 +45,11 @@
   CONFIG.page = {
     sidebar: "",
     isHome : false,
-    isPost : false,
+    isPost : true,
     lang   : 'zh-CN'
   };
 </script>
-<title>归档 | Scoheart</title>
+<title>next配置文件解读 | Scoheart</title>
   
 
 
@@ -173,7 +175,7 @@
 
   <aside class="sidebar">
 
-    <div class="sidebar-inner sidebar-overview-active">
+    <div class="sidebar-inner sidebar-nav-active sidebar-toc-active">
       <ul class="sidebar-nav">
         <li class="sidebar-nav-toc">
           文章目录
@@ -186,6 +188,7 @@
       <div class="sidebar-panel-container">
         <!--noindex-->
         <div class="post-toc-wrap sidebar-panel">
+            <div class="post-toc animated"><ol class="nav"><li class="nav-item nav-level-1"><a class="nav-link" href="#back2top"><span class="nav-number">1.</span> <span class="nav-text">back2top</span></a></li><li class="nav-item nav-level-1"><a class="nav-link" href="#index-with-subtitle"><span class="nav-number">2.</span> <span class="nav-text">index_with_subtitle</span></a></li><li class="nav-item nav-level-1"><a class="nav-link"><span class="nav-number">3.</span> <span class="nav-text"></span></a></li></ol></div>
         </div>
         <!--/noindex-->
 
@@ -269,129 +272,149 @@
 </noscript>
 
 
-    <div class="main-inner archive posts-collapse">
+    <div class="main-inner post posts-expand">
 
 
   
-  
-  
-  <div class="post-block">
-    <div class="post-content">
-      <div class="collection-title">
-        <span class="collection-header">嗯..! 目前共计 5 篇日志。 继续努力。</span>
-      </div>
 
+
+<div class="post-block">
+  
+  
+
+  <article itemscope itemtype="http://schema.org/Article" class="post-content" lang="zh-CN">
+    <link itemprop="mainEntityOfPage" href="https://scoheart.github.io/2021/03/10/2021-03-10-next%E9%85%8D%E7%BD%AE%E6%96%87%E4%BB%B6%E8%A7%A3%E8%AF%BB/">
+
+    <span hidden itemprop="author" itemscope itemtype="http://schema.org/Person">
+      <meta itemprop="image" content="/images/Scoheart.jpg">
+      <meta itemprop="name" content="Scoheart">
+      <meta itemprop="description" content="何来人间惊鸿客，不过尘世一俗人。">
+    </span>
+
+    <span hidden itemprop="publisher" itemscope itemtype="http://schema.org/Organization">
+      <meta itemprop="name" content="Scoheart">
+    </span>
+      <header class="post-header">
+        <h1 class="post-title" itemprop="name headline">
+          next配置文件解读
+        </h1>
+
+        <div class="post-meta-container">
+          <div class="post-meta">
+    <span class="post-meta-item">
+      <span class="post-meta-item-icon">
+        <i class="far fa-calendar"></i>
+      </span>
+      <span class="post-meta-item-text">发表于</span>
       
-    <div class="collection-year">
-      <span class="collection-header">2021</span>
+
+      <time title="创建时间：03-10-2021 00:00:00 / 修改时间：20:15:01" itemprop="dateCreated datePublished" datetime="2021-03-10T00:00:00+08:00">03-10-2021</time>
+    </span>
+    <span class="post-meta-item">
+      <span class="post-meta-item-icon">
+        <i class="far fa-folder"></i>
+      </span>
+      <span class="post-meta-item-text">分类于</span>
+        <span itemprop="about" itemscope itemtype="http://schema.org/Thing">
+          <a href="/categories/blog/" itemprop="url" rel="index"><span itemprop="name">blog</span></a>
+        </span>
+    </span>
+
+  
+</div>
+
+            <div class="post-description">标签解读</div>
+        </div>
+      </header>
+
+    
+    
+    
+    <div class="post-body" itemprop="articleBody">
+        <h1 id="back2top"><a href="#back2top" class="headerlink" title="back2top"></a>back2top</h1><ul>
+<li>enable：开关</li>
+<li>sidebar：侧边栏是否开启返回顶部</li>
+<li>scrollpercent：文章浏览百分比是否开启</li>
+</ul>
+<h1 id="index-with-subtitle"><a href="#index-with-subtitle" class="headerlink" title="index_with_subtitle"></a>index_with_subtitle</h1><p>是否开启状态栏显示副标题</p>
+<h1 id=""><a href="#" class="headerlink" title=""></a></h1>
     </div>
 
-  <article itemscope itemtype="http://schema.org/Article">
-    <header class="post-header">
-      <div class="post-meta-container">
-        <time itemprop="dateCreated"
-              datetime="2021-03-10T00:00:00+08:00"
-              content="03-10-2021">
-          03-10
-        </time>
+    
+    
+    
+
+    <footer class="post-footer">
+          <div class="reward-container">
+  <div>通过扫码赞赏我。</div>
+  <button onclick="document.querySelector('.post-reward').classList.toggle('active');">
+    赞赏
+  </button>
+  <div class="post-reward">
+      <div>
+        <img src="/images/wechatpay.png" alt="Scoheart 微信">
+        <span>微信</span>
+      </div>
+      <div>
+        <img src="/images/alipay.jpg" alt="Scoheart 支付宝">
+        <span>支付宝</span>
       </div>
 
-      <div class="post-title">
-          <a class="post-title-link" href="/2021/03/10/2021-03-10-next%E9%85%8D%E7%BD%AE%E6%96%87%E4%BB%B6%E8%A7%A3%E8%AF%BB/" itemprop="url">
-            <span itemprop="name">next配置文件解读</span>
-          </a>
+  </div>
+</div>
+
+          <div class="followme">
+  <span>欢迎关注我的其它发布渠道</span>
+
+  <div class="social-list">
+
+      <div class="social-item">
+        <a target="_blank" class="social-link" href="https://twitter.com/Scoheart201028">
+          <span class="icon">
+            <i class="fab fa-twitter"></i>
+          </span>
+
+          <span class="label">Twitter</span>
+        </a>
       </div>
 
-      
-    </header>
-  </article>
+      <div class="social-item">
+        <a target="_blank" class="social-link" href="https://t.me/Scoheart">
+          <span class="icon">
+            <i class="fab fa-telegram"></i>
+          </span>
 
-  <article itemscope itemtype="http://schema.org/Article">
-    <header class="post-header">
-      <div class="post-meta-container">
-        <time itemprop="dateCreated"
-              datetime="2021-03-09T00:00:00+08:00"
-              content="03-09-2021">
-          03-09
-        </time>
+          <span class="label">Telegram</span>
+        </a>
       </div>
-
-      <div class="post-title">
-          <a class="post-title-link" href="/2021/03/09/2021-03-09-Hexo%E9%85%8D%E7%BD%AE%E6%96%87%E4%BB%B6%E8%A7%A3%E8%AF%BB/" itemprop="url">
-            <span itemprop="name">Hexo配置文件解读</span>
-          </a>
-      </div>
-
-      
-    </header>
-  </article>
-
-  <article itemscope itemtype="http://schema.org/Article">
-    <header class="post-header">
-      <div class="post-meta-container">
-        <time itemprop="dateCreated"
-              datetime="2021-03-08T00:00:00+08:00"
-              content="03-08-2021">
-          03-08
-        </time>
-      </div>
-
-      <div class="post-title">
-          <a class="post-title-link" href="/2021/03/08/2021-03-08-%E5%8D%9A%E5%AE%A2%E5%90%8E%E7%BB%AD%E8%B7%9F%E8%BF%9B/" itemprop="url">
-            <span itemprop="name">博客后续跟进</span>
-          </a>
-      </div>
-
-      
-    </header>
-  </article>
-
-  <article itemscope itemtype="http://schema.org/Article">
-    <header class="post-header">
-      <div class="post-meta-container">
-        <time itemprop="dateCreated"
-              datetime="2021-03-08T00:00:00+08:00"
-              content="03-08-2021">
-          03-08
-        </time>
-      </div>
-
-      <div class="post-title">
-          <a class="post-title-link" href="/2021/03/08/2021-03-08-How-to-start-a-blog/" itemprop="url">
-            <span itemprop="name">How to start a blog.</span>
-          </a>
-      </div>
-
-      
-    </header>
-  </article>
-
-  <article itemscope itemtype="http://schema.org/Article">
-    <header class="post-header">
-      <div class="post-meta-container">
-        <time itemprop="dateCreated"
-              datetime="2021-03-08T00:00:00+08:00"
-              content="03-08-2021">
-          03-08
-        </time>
-      </div>
-
-      <div class="post-title">
-          <a class="post-title-link" href="/2021/03/08/2021-03-08-%E5%A6%82%E4%BD%95%E6%90%AD%E5%BB%BA%E4%B8%AA%E4%BA%BA%E5%8D%9A%E5%AE%A2/" itemprop="url">
-            <span itemprop="name">如何搭建个人博客</span>
-          </a>
-      </div>
-
-      
-    </header>
-  </article>
+  </div>
+</div>
 
 
+        
+  <div class="post-widgets">
+    <div class="wp_rating">
+      <div id="wpac-rating"></div>
     </div>
   </div>
-  
-  
-  
+
+          <div class="post-nav">
+            <div class="post-nav-item">
+                <a href="/2021/03/09/2021-03-09-Hexo%E9%85%8D%E7%BD%AE%E6%96%87%E4%BB%B6%E8%A7%A3%E8%AF%BB/" rel="prev" title="Hexo配置文件解读">
+                  <i class="fa fa-chevron-left"></i> Hexo配置文件解读
+                </a>
+            </div>
+            <div class="post-nav-item">
+            </div>
+          </div>
+    </footer>
+  </article>
+</div>
+
+
+
+
+
 
 
 <script>
