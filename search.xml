@@ -1,0 +1,318 @@
+<?xml version="1.0" encoding="utf-8"?>
+<search>
+  <entry>
+    <title>How to start a blog.</title>
+    <url>/2021/03/08/2021-03-08-How-to-start-a-blog/</url>
+    <content><![CDATA[<h1 id="Install-Node-js"><a href="#Install-Node-js" class="headerlink" title="Install Node.js."></a><strong>Install Node.js.</strong></h1><h3 id="Download-Node-js-from-the-official-website"><a href="#Download-Node-js-from-the-official-website" class="headerlink" title="Download Node.js from the official website."></a><strong>Download Node.js from the official website.</strong></h3><p><strong>Check Node.js using the following code</strong></p>
+<ul>
+<li><strong>node -v</strong></li>
+<li><strong>npm -v</strong></li>
+</ul>
+<hr>
+<h1 id="Install-Git"><a href="#Install-Git" class="headerlink" title="Install Git."></a><strong>Install Git.</strong></h1><h3 id="Download-Git-from-the-official-website"><a href="#Download-Git-from-the-official-website" class="headerlink" title="Download Git from the official website."></a><strong>Download Git from the official website.</strong></h3><p><strong>Check Git using the following code</strong></p>
+<ul>
+<li><strong>git –version</strong></li>
+</ul>
+<hr>
+<h1 id="Install-Hexo"><a href="#Install-Hexo" class="headerlink" title="Install Hexo."></a><strong>Install Hexo.</strong></h1><h3 id="Download-Hexo-using-the-following-code"><a href="#Download-Hexo-using-the-following-code" class="headerlink" title="Download Hexo using the following code."></a><strong>Download Hexo using the following code.</strong></h3><ul>
+<li><strong>npm install -g hexo–cli</strong></li>
+</ul>
+<p><strong>Check Hexo using the following code</strong></p>
+<ul>
+<li><strong>hexo -v</strong></li>
+</ul>
+<hr>
+<h1 id="Initialize-Hexo"><a href="#Initialize-Hexo" class="headerlink" title="Initialize Hexo."></a><strong>Initialize Hexo.</strong></h1><ul>
+<li><p><strong>Create a floder（eg. name= “blog”）</strong></p>
+</li>
+<li><p><strong>git bash/ cmd  —— blog</strong></p>
+</li>
+</ul>
+<blockquote>
+<p><strong>hexo init “floder” (eg. name= “myblog”)</strong></p>
+<p><strong>cd “floder”</strong></p>
+<p><strong>npm install</strong></p>
+</blockquote>
+<hr>
+<h1 id="Web-page-preview"><a href="#Web-page-preview" class="headerlink" title="Web page preview"></a><strong>Web page preview</strong></h1><ul>
+<li><p><strong>hexo generate (Generating the static web page)</strong></p>
+</li>
+<li><p><strong>hexo server (The preview page)</strong></p>
+</li>
+<li><p><strong><a href="http://localhost:4000/">http://localhost:4000</a></strong></p>
+</li>
+</ul>
+<hr>
+<h1 id="Deploy-to-github-pages"><a href="#Deploy-to-github-pages" class="headerlink" title="Deploy to github pages"></a><strong>Deploy to github pages</strong></h1><ul>
+<li><strong>create a github account</strong></li>
+<li><strong>cerate a new repository</strong></li>
+</ul>
+<blockquote>
+<p><strong>repository name= “username.github.io”</strong></p>
+</blockquote>
+<ul>
+<li><strong>generate SSH in git bash</strong></li>
+</ul>
+<blockquote>
+<p><strong>git config –global user.name “yourname”</strong></p>
+<p><strong>git config –global user.email “youremail”</strong></p>
+<blockquote>
+<p><strong>Check  using the following code</strong></p>
+<ul>
+<li><strong>git config user.name</strong></li>
+<li><strong>git config user.email</strong></li>
+</ul>
+</blockquote>
+<p><strong>ssh-keygen -t rsa -C “youremail”</strong></p>
+</blockquote>
+<ul>
+<li><strong>get the ssh public key</strong></li>
+</ul>
+<blockquote>
+<p><strong>C/user/yourname/.ssh/id_rsa.pub</strong></p>
+</blockquote>
+<ul>
+<li><strong>paste to github</strong></li>
+</ul>
+<blockquote>
+<p><strong>Check  using the following code</strong></p>
+<ul>
+<li><strong>ssh -T <a href="mailto:&#x67;&#x69;&#116;&#64;&#103;&#105;&#116;&#x68;&#x75;&#x62;&#x2e;&#99;&#x6f;&#x6d;">&#x67;&#x69;&#116;&#64;&#103;&#105;&#116;&#x68;&#x75;&#x62;&#x2e;&#99;&#x6f;&#x6d;</a></strong></li>
+</ul>
+</blockquote>
+<ul>
+<li><strong>modify site file</strong></li>
+</ul>
+<blockquote>
+<p><strong>_config.yml</strong></p>
+<blockquote>
+<p><strong>deploy:</strong></p>
+<p>​    <strong>type: git</strong></p>
+<p>​    <strong>repo: <a href="https://github.com/yourname/yourname.github.io.git">https://github.com/yourname/yourname.github.io.git</a></strong></p>
+<p>​    <strong>branch: main</strong></p>
+</blockquote>
+</blockquote>
+<ul>
+<li><strong>install deploy-git</strong></li>
+</ul>
+<blockquote>
+<p><strong>npm install hexo-deployer-git –save</strong></p>
+</blockquote>
+<ul>
+<li><strong>deploy</strong></li>
+</ul>
+<blockquote>
+<p><strong>hexo generate</strong></p>
+<p><strong>hexo deploy</strong></p>
+<p><strong><a href="https://1487790559.github.io/">https://1487790559.github.io</a></strong></p>
+</blockquote>
+]]></content>
+      <categories>
+        <category>blog</category>
+      </categories>
+  </entry>
+  <entry>
+    <title>博客后续跟进</title>
+    <url>/2021/03/08/2021-03-08-%E5%8D%9A%E5%AE%A2%E5%90%8E%E7%BB%AD%E8%B7%9F%E8%BF%9B/</url>
+    <content><![CDATA[<h1 id="添加分类"><a href="#添加分类" class="headerlink" title="添加分类"></a>添加分类</h1><ul>
+<li>根目录下 git bash</li>
+<li><code>hexo new page categories</code></li>
+<li>给文章加上categories: xxx</li>
+</ul>
+<h1 id="添加标签"><a href="#添加标签" class="headerlink" title="添加标签"></a>添加标签</h1><ul>
+<li>根目录下 git bash</li>
+<li><code>hexo new page tags</code></li>
+<li>tags: xxx</li>
+<li>给文章加上categories: xxx</li>
+</ul>
+<h1 id="更换主题"><a href="#更换主题" class="headerlink" title="更换主题"></a>更换主题</h1><ul>
+<li>浏览主题</li>
+<li>点击喜欢的主题的标题进入github下载界面</li>
+<li>下载主题源代码目录</li>
+<li>移至博客themes文件夹下并改名</li>
+<li>将站点配置文件中的theme改为将要使用的主题</li>
+</ul>
+<h1 id="添加社交网站链接"><a href="#添加社交网站链接" class="headerlink" title="添加社交网站链接"></a>添加社交网站链接</h1><ul>
+<li>进入主题配置文件</li>
+<li>在social标签下添加各种社交网站链接</li>
+</ul>
+<h1 id="添加社交网站链接图标"><a href="#添加社交网站链接图标" class="headerlink" title="添加社交网站链接图标"></a>添加社交网站链接图标</h1><ul>
+<li>进入主题配置文件</li>
+<li>在网站链接后面加 || fab fa-xxxxx</li>
+</ul>
+<h1 id="主页文章显示摘要显示"><a href="#主页文章显示摘要显示" class="headerlink" title="主页文章显示摘要显示"></a>主页文章显示摘要显示</h1><ul>
+<li>文章Fromt-matter部分加上 </li>
+</ul>
+<blockquote>
+<p>description: xxxxx</p>
+</blockquote>
+<h1 id="设置站点地图"><a href="#设置站点地图" class="headerlink" title="设置站点地图"></a>设置站点地图</h1><ul>
+<li>根据下面代码下载npm插件</li>
+</ul>
+<p><code>npm install hexo-generator-sitemap --save</code></p>
+<ul>
+<li><p>修改站点配置文件中的 Extensions 标签</p>
+</li>
+<li><p>在主题配置文件中的menu标签添加sitemap项</p>
+</li>
+</ul>
+<h1 id="添加相册"><a href="#添加相册" class="headerlink" title="添加相册"></a>添加相册</h1><ul>
+<li>在主题配置文件中的menu菜单中添加photos项</li>
+<li>在主题languages - zh-CN.yml文件中的menu标签添加photos: 相册</li>
+</ul>
+<h1 id="更改博客标题栏图片"><a href="#更改博客标题栏图片" class="headerlink" title="更改博客标题栏图片"></a>更改博客标题栏图片</h1><ul>
+<li>修改主题配置文件favicon标签下的图片路径</li>
+</ul>
+<h1 id="添加本地搜索"><a href="#添加本地搜索" class="headerlink" title="添加本地搜索"></a>添加本地搜索</h1><ul>
+<li><pre><code>npm install hexo-generator-searchdb
+</code></pre>
+</li>
+</ul>
+]]></content>
+      <categories>
+        <category>blog</category>
+      </categories>
+      <tags>
+        <tag>blog</tag>
+      </tags>
+  </entry>
+  <entry>
+    <title>Hexo配置文件解读</title>
+    <url>/2021/03/09/2021-03-09-Hexo%E9%85%8D%E7%BD%AE%E6%96%87%E4%BB%B6%E8%A7%A3%E8%AF%BB/</url>
+    <content><![CDATA[<h1 id="Site"><a href="#Site" class="headerlink" title="#Site"></a>#Site</h1><ul>
+<li>title：博客标题，显示在浏览器状态栏</li>
+<li>subtitle：博客副标题</li>
+<li>description：博客描述，一句话之类的</li>
+<li>keywords：博客的关键字 ？</li>
+<li>author：博客作者</li>
+<li>language： 博客使用的语言</li>
+<li>timezone：博客使用的时区</li>
+</ul>
+<h1 id="URL"><a href="#URL" class="headerlink" title="#URL"></a>#URL</h1><ul>
+<li>url：？</li>
+<li>permalink：？</li>
+</ul>
+<h1 id="Diretory"><a href="#Diretory" class="headerlink" title="#Diretory"></a>#Diretory</h1><h1 id="Writing"><a href="#Writing" class="headerlink" title="#Writing"></a>#Writing</h1><h1 id="Home-page-setting"><a href="#Home-page-setting" class="headerlink" title="#Home page setting"></a>#Home page setting</h1><ul>
+<li>path：？</li>
+<li>per_page：博客每页展示的帖子数量</li>
+<li>order_by：博客帖子通过什么方式排序</li>
+</ul>
+<h1 id="Category-amp-Tags"><a href="#Category-amp-Tags" class="headerlink" title="#Category &amp; Tags"></a>#Category &amp; Tags</h1><ul>
+<li>default_category：</li>
+<li>category_map：</li>
+<li>tag_map：</li>
+</ul>
+<h1 id="Metadata-elements"><a href="#Metadata-elements" class="headerlink" title="#Metadata elements"></a>#Metadata elements</h1><h1 id="Date-Time-format"><a href="#Date-Time-format" class="headerlink" title="#Date / Time format"></a>#Date / Time format</h1><ul>
+<li>date_format：日期格式设置</li>
+<li>time_format：时间格式设置</li>
+<li>update_option：</li>
+</ul>
+<h1 id="Pagination"><a href="#Pagination" class="headerlink" title="#Pagination"></a>#Pagination</h1><h1 id="Include-Exclude-files"><a href="#Include-Exclude-files" class="headerlink" title="#Include / Exclude files"></a>#Include / Exclude files</h1><h1 id="Extensions"><a href="#Extensions" class="headerlink" title="#Extensions"></a>#Extensions</h1><ul>
+<li>plugins：所下载的插件</li>
+<li>theme：所下载的主题</li>
+</ul>
+<h1 id="Deployment"><a href="#Deployment" class="headerlink" title="#Deployment"></a>#Deployment</h1>]]></content>
+      <categories>
+        <category>blog</category>
+      </categories>
+  </entry>
+  <entry>
+    <title>如何搭建个人博客</title>
+    <url>/2021/03/08/2021-03-08-%E5%A6%82%E4%BD%95%E6%90%AD%E5%BB%BA%E4%B8%AA%E4%BA%BA%E5%8D%9A%E5%AE%A2/</url>
+    <content><![CDATA[<h1 id="一、安装Node-js。"><a href="#一、安装Node-js。" class="headerlink" title="一、安装Node.js。"></a>一、安装Node.js。</h1><h2 id="1、从官网下载并安装Node-js"><a href="#1、从官网下载并安装Node-js" class="headerlink" title="1、从官网下载并安装Node.js"></a>1、从官网下载并安装Node.js</h2><h2 id="2、使用下面的代码检查Node-js的安装"><a href="#2、使用下面的代码检查Node-js的安装" class="headerlink" title="2、使用下面的代码检查Node.js的安装"></a>2、使用下面的代码检查Node.js的安装</h2><p><code>node -v</code></p>
+<p><code>npm -v</code></p>
+<hr>
+<h1 id="二、安装Git。"><a href="#二、安装Git。" class="headerlink" title="二、安装Git。"></a>二、安装Git。</h1><h2 id="1、从官网下载并安装Git"><a href="#1、从官网下载并安装Git" class="headerlink" title="1、从官网下载并安装Git"></a>1、从官网下载并安装Git</h2><h2 id="2、使用下面的代码检查Git的安装"><a href="#2、使用下面的代码检查Git的安装" class="headerlink" title="2、使用下面的代码检查Git的安装"></a>2、使用下面的代码检查Git的安装</h2><p><code>git --version</code></p>
+<hr>
+<h1 id="三、安装Hexo。"><a href="#三、安装Hexo。" class="headerlink" title="三、安装Hexo。"></a>三、安装Hexo。</h1><h2 id="1、使用下面的代码下载Hexo"><a href="#1、使用下面的代码下载Hexo" class="headerlink" title="1、使用下面的代码下载Hexo"></a>1、使用下面的代码下载Hexo</h2><p><code>npm install -g hexo--cli</code></p>
+<h2 id="2、使用下面的代码检查Hexo的安装"><a href="#2、使用下面的代码检查Hexo的安装" class="headerlink" title="2、使用下面的代码检查Hexo的安装"></a>2、使用下面的代码检查Hexo的安装</h2><p><code>hexo -v</code></p>
+<hr>
+<h1 id="四、初始化Hexo。"><a href="#四、初始化Hexo。" class="headerlink" title="四、初始化Hexo。"></a>四、初始化Hexo。</h1><ul>
+<li><strong>创建一个新文件夹 于其中搭建博客（例：文件夹 “blog”）</strong></li>
+<li><strong>在此文件夹下以Git bash 打开（或者cmd 等等）</strong></li>
+<li><strong>运行下列命令搭建博客</strong></li>
+</ul>
+<p><code>hexo init &quot;floder&quot;</code> <strong>(例：文件夹 “myblog”)</strong></p>
+<p><code>cd &quot;floder&quot;</code></p>
+<p><code>npm install</code></p>
+<hr>
+<h1 id="五、个人博客页面预览"><a href="#五、个人博客页面预览" class="headerlink" title="五、个人博客页面预览"></a>五、个人博客页面预览</h1><p><code>hexo generate</code> <strong>(生成静态博客页面)</strong></p>
+<p><code>hexo server</code> <strong>(预览静态博客页面)</strong></p>
+<ul>
+<li><strong>以此本地地址进入静态博客页面</strong></li>
+</ul>
+<blockquote>
+<p> <strong><a href="http://localhost:4000/">http://localhost:4000</a></strong></p>
+</blockquote>
+<hr>
+<h1 id="六、部署博客页面至Github"><a href="#六、部署博客页面至Github" class="headerlink" title="六、部署博客页面至Github"></a>六、部署博客页面至Github</h1><ul>
+<li><p><strong>创建一个Github账户</strong></p>
+</li>
+<li><p><strong>新建一个仓库（例：”Username.github.io” 注：必须用此格式）</strong></p>
+</li>
+<li><p><strong>生成SSH秘钥</strong></p>
+</li>
+</ul>
+<p><code>git config --global user.name &quot;yourname&quot;</code></p>
+<p><code>git config --global user.email &quot;youremail&quot;</code></p>
+<p><strong>注：使用下面代码检查账户邮箱输入</strong></p>
+<blockquote>
+<p><code>git config user.name</code></p>
+<p><code>git config user.email</code></p>
+</blockquote>
+<p><code>ssh-keygen -t rsa -C &quot;youremail&quot;</code></p>
+<ul>
+<li><strong>从下面路径获取秘钥</strong></li>
+</ul>
+<blockquote>
+<p><strong>C/user/yourname/.ssh/id_rsa.pub</strong></p>
+</blockquote>
+<ul>
+<li><strong>将秘钥粘贴至Github</strong></li>
+</ul>
+<p><strong>注：使用下面的代码检查秘钥的上传</strong></p>
+<p><code>ssh -T git@github.com</code></p>
+<ul>
+<li><strong>修改站点配置文件中的deploy标签 （名为”_config.yml”的文件）</strong></li>
+</ul>
+<blockquote>
+<p><strong>deploy:</strong></p>
+<p>​        <strong>type: git</strong></p>
+<p>​        <strong>repo: <a href="https://github.com/yourname/yourname.github.io.git">https://github.com/yourname/yourname.github.io.git</a></strong></p>
+<p>​        <strong>branch: main</strong></p>
+</blockquote>
+<ul>
+<li><strong>安装deploy-git</strong></li>
+</ul>
+<p><code>npm install hexo-deployer-git --save</code></p>
+<ul>
+<li><strong>部署博客至Github</strong></li>
+</ul>
+<p><code>hexo generate</code></p>
+<p><code>hexo deploy</code></p>
+<ul>
+<li><strong>以此网页地址进入博客页面</strong></li>
+</ul>
+<blockquote>
+<p><strong><a href="https://yourname.github.io/">https://yourname.github.io</a></strong></p>
+</blockquote>
+]]></content>
+      <categories>
+        <category>blog</category>
+      </categories>
+  </entry>
+  <entry>
+    <title>next配置文件解读</title>
+    <url>/2021/03/10/2021-03-10-next%E9%85%8D%E7%BD%AE%E6%96%87%E4%BB%B6%E8%A7%A3%E8%AF%BB/</url>
+    <content><![CDATA[<h1 id="back2top"><a href="#back2top" class="headerlink" title="back2top"></a>back2top</h1><ul>
+<li>enable：开关</li>
+<li>sidebar：侧边栏是否开启返回顶部</li>
+<li>scrollpercent：文章浏览百分比是否开启</li>
+</ul>
+<h1 id="index-with-subtitle"><a href="#index-with-subtitle" class="headerlink" title="index_with_subtitle"></a>index_with_subtitle</h1><p>是否开启状态栏显示副标题</p>
+<h1 id=""><a href="#" class="headerlink" title=""></a></h1>]]></content>
+      <categories>
+        <category>blog</category>
+      </categories>
+  </entry>
+</search>

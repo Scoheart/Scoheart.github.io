@@ -21,7 +21,7 @@
 
 <script class="hexo-configurations">
     var NexT = window.NexT || {};
-    var CONFIG = {"hostname":"scoheart.github.io","root":"/","images":"/images","scheme":"Muse","version":"8.2.2","exturl":false,"sidebar":{"position":"right","display":"post","padding":18,"offset":12},"copycode":false,"bookmark":{"enable":true,"color":"#222","save":"auto"},"fancybox":false,"mediumzoom":false,"lazyload":false,"pangu":false,"comments":{"style":"tabs","active":"disqus","storage":true,"lazyload":false,"nav":null},"motion":{"enable":true,"async":false,"transition":{"post_block":"fadeIn","post_header":"fadeInDown","post_body":"fadeInDown","coll_header":"fadeInLeft","sidebar":"fadeInUp"}},"prism":false,"i18n":{"placeholder":"搜索...","empty":"没有找到任何搜索结果：${query}","hits_time":"找到 ${hits} 个搜索结果（用时 ${time} 毫秒）","hits":"找到 ${hits} 个搜索结果"}};
+    var CONFIG = {"hostname":"scoheart.github.io","root":"/","images":"/images","scheme":"Muse","version":"8.2.2","exturl":false,"sidebar":{"position":"right","display":"post","padding":18,"offset":12},"copycode":false,"bookmark":{"enable":true,"color":"#222","save":"auto"},"fancybox":false,"mediumzoom":false,"lazyload":false,"pangu":false,"comments":{"style":"tabs","active":"disqus","storage":true,"lazyload":false,"nav":null},"motion":{"enable":true,"async":false,"transition":{"post_block":"fadeIn","post_header":"fadeInDown","post_body":"fadeInDown","coll_header":"fadeInLeft","sidebar":"fadeInUp"}},"prism":false,"i18n":{"placeholder":"搜索...","empty":"没有找到任何搜索结果：${query}","hits_time":"找到 ${hits} 个搜索结果（用时 ${time} 毫秒）","hits":"找到 ${hits} 个搜索结果"},"path":"/search.xml","localsearch":{"enable":true,"trigger":"auto","top_n_per_article":1,"unescape":false,"preload":false}};
   </script>
 <meta name="description" content="何来人间惊鸿客，不过尘世一俗人。">
 <meta property="og:type" content="website">
@@ -148,15 +148,19 @@
   <span class="search-icon">
     <i class="fa fa-search"></i>
   </span>
-  <div class="search-input-container"></div>
+  <div class="search-input-container">
+    <input autocomplete="off" autocapitalize="off" maxlength="80"
+           placeholder="搜索..." spellcheck="false"
+           type="search" class="search-input">
+  </div>
   <span class="popup-btn-close" role="button">
     <i class="fa fa-times-circle"></i>
   </span>
 </div>
-<div class="search-result-container">
-  <div class="algolia-stats"><hr></div>
-  <div class="algolia-hits"></div>
-  <div class="algolia-pagination"></div>
+<div class="search-result-container no-result">
+  <div class="search-result-icon">
+    <i class="fa fa-spinner fa-pulse fa-5x"></i>
+  </div>
 </div>
 
     </div>
@@ -339,8 +343,8 @@
       </div>
 
       <div class="post-title">
-          <a class="post-title-link" href="/2021/03/08/2021-03-08-%E5%8D%9A%E5%AE%A2%E5%90%8E%E7%BB%AD%E8%B7%9F%E8%BF%9B/" itemprop="url">
-            <span itemprop="name">博客后续跟进</span>
+          <a class="post-title-link" href="/2021/03/08/2021-03-08-How-to-start-a-blog/" itemprop="url">
+            <span itemprop="name">How to start a blog.</span>
           </a>
       </div>
 
@@ -359,8 +363,8 @@
       </div>
 
       <div class="post-title">
-          <a class="post-title-link" href="/2021/03/08/2021-03-08-How-to-start-a-blog/" itemprop="url">
-            <span itemprop="name">How to start a blog.</span>
+          <a class="post-title-link" href="/2021/03/08/2021-03-08-%E5%8D%9A%E5%AE%A2%E5%90%8E%E7%BB%AD%E8%B7%9F%E8%BF%9B/" itemprop="url">
+            <span itemprop="name">博客后续跟进</span>
           </a>
       </div>
 
@@ -462,8 +466,7 @@
     })();
   }
   </script>
-<script src="https://cdn.jsdelivr.net/npm/algoliasearch@4.8.5/dist/algoliasearch-lite.umd.js"></script>
-<script src="https://cdn.jsdelivr.net/npm/instantsearch.js@4.15.0/dist/instantsearch.production.min.js"></script><script src="/js/algolia-search.js"></script>
+<script src="/js/local-search.js"></script>
 
   <script>
     (function(d, w, c) {
