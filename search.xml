@@ -69,7 +69,7 @@
   <entry>
     <title>How to start a blog.</title>
     <url>/2021/03/08/2021-03-08-How-to-start-a-blog/</url>
-    <content><![CDATA[<h1 id="Install-Node-js"><a href="#Install-Node-js" class="headerlink" title="Install Node.js."></a><strong>Install Node.js.</strong></h1><h3 id="Download-Node-js-from-the-official-website"><a href="#Download-Node-js-from-the-official-website" class="headerlink" title="Download Node.js from the official website."></a><strong>Download Node.js from the official website.</strong></h3><p><strong>Check Node.js using the following code</strong></p>
+    <content><![CDATA[<link rel="stylesheet" class="aplayer-secondary-style-marker" href="\assets\css\APlayer.min.css"><script src="\assets\js\APlayer.min.js" class="aplayer-secondary-script-marker"></script><h1 id="Install-Node-js"><a href="#Install-Node-js" class="headerlink" title="Install Node.js."></a><strong>Install Node.js.</strong></h1><h3 id="Download-Node-js-from-the-official-website"><a href="#Download-Node-js-from-the-official-website" class="headerlink" title="Download Node.js from the official website."></a><strong>Download Node.js from the official website.</strong></h3><p><strong>Check Node.js using the following code</strong></p>
 <ul>
 <li><strong>node -v</strong></li>
 <li><strong>npm -v</strong></li>
@@ -143,7 +143,7 @@
 <blockquote>
 <p><strong>Check  using the following code</strong></p>
 <ul>
-<li><strong>ssh -T <a href="mailto:&#103;&#x69;&#x74;&#64;&#x67;&#x69;&#x74;&#x68;&#x75;&#98;&#46;&#99;&#111;&#109;">&#103;&#x69;&#x74;&#64;&#x67;&#x69;&#x74;&#x68;&#x75;&#98;&#46;&#99;&#111;&#109;</a></strong></li>
+<li><strong>ssh -T <a href="mailto:&#103;&#105;&#116;&#x40;&#x67;&#105;&#116;&#104;&#117;&#98;&#x2e;&#99;&#111;&#109;">&#103;&#105;&#116;&#x40;&#x67;&#105;&#116;&#104;&#117;&#98;&#x2e;&#99;&#111;&#109;</a></strong></li>
 </ul>
 </blockquote>
 <ul>
@@ -172,6 +172,7 @@
 <p><strong>hexo deploy</strong></p>
 <p><strong><a href="https://1487790559.github.io/">https://1487790559.github.io</a></strong></p>
 </blockquote>
+<p>hello <a href="https://scoheart.github.io/2021/03/08/2021-03-08-How-to-start-a-blog/">https://Scoheart.github.io/2021/03/08/2021-03-08-How-to-start-a-blog/</a> bye</p>
 ]]></content>
       <categories>
         <category>blog</category>
@@ -180,7 +181,7 @@
   <entry>
     <title>如何搭建个人博客</title>
     <url>/2021/03/08/2021-03-08-%E5%A6%82%E4%BD%95%E6%90%AD%E5%BB%BA%E4%B8%AA%E4%BA%BA%E5%8D%9A%E5%AE%A2/</url>
-    <content><![CDATA[<h1 id="一、安装Node-js。"><a href="#一、安装Node-js。" class="headerlink" title="一、安装Node.js。"></a>一、安装Node.js。</h1><h2 id="1、从官网下载并安装Node-js"><a href="#1、从官网下载并安装Node-js" class="headerlink" title="1、从官网下载并安装Node.js"></a>1、从官网下载并安装Node.js</h2><h2 id="2、使用下面的代码检查Node-js的安装"><a href="#2、使用下面的代码检查Node-js的安装" class="headerlink" title="2、使用下面的代码检查Node.js的安装"></a>2、使用下面的代码检查Node.js的安装</h2><p><code>node -v</code></p>
+    <content><![CDATA[<link rel="stylesheet" class="aplayer-secondary-style-marker" href="\assets\css\APlayer.min.css"><script src="\assets\js\APlayer.min.js" class="aplayer-secondary-script-marker"></script><h1 id="一、安装Node-js。"><a href="#一、安装Node-js。" class="headerlink" title="一、安装Node.js。"></a>一、安装Node.js。</h1><h2 id="1、从官网下载并安装Node-js"><a href="#1、从官网下载并安装Node-js" class="headerlink" title="1、从官网下载并安装Node.js"></a>1、从官网下载并安装Node.js</h2><h2 id="2、使用下面的代码检查Node-js的安装"><a href="#2、使用下面的代码检查Node-js的安装" class="headerlink" title="2、使用下面的代码检查Node.js的安装"></a>2、使用下面的代码检查Node.js的安装</h2><p><code>node -v</code></p>
 <p><code>npm -v</code></p>
 <hr>
 <h1 id="二、安装Git。"><a href="#二、安装Git。" class="headerlink" title="二、安装Git。"></a>二、安装Git。</h1><h2 id="1、从官网下载并安装Git"><a href="#1、从官网下载并安装Git" class="headerlink" title="1、从官网下载并安装Git"></a>1、从官网下载并安装Git</h2><h2 id="2、使用下面的代码检查Git的安装"><a href="#2、使用下面的代码检查Git的安装" class="headerlink" title="2、使用下面的代码检查Git的安装"></a>2、使用下面的代码检查Git的安装</h2><p><code>git --version</code></p>
@@ -257,6 +258,7 @@
 <blockquote>
 <p><strong><a href="https://yourname.github.io/">https://yourname.github.io</a></strong></p>
 </blockquote>
+<p>hello <a href="https://scoheart.github.io/2021/03/08/2021-03-08-%E5%A6%82%E4%BD%95%E6%90%AD%E5%BB%BA%E4%B8%AA%E4%BA%BA%E5%8D%9A%E5%AE%A2/">https://Scoheart.github.io/2021/03/08/2021-03-08-如何搭建个人博客/</a> bye</p>
 ]]></content>
       <categories>
         <category>blog</category>
@@ -309,13 +311,14 @@
   <entry>
     <title>next配置文件解读</title>
     <url>/2021/03/10/2021-03-10-next%E9%85%8D%E7%BD%AE%E6%96%87%E4%BB%B6%E8%A7%A3%E8%AF%BB/</url>
-    <content><![CDATA[<h1 id="back2top"><a href="#back2top" class="headerlink" title="back2top"></a>back2top</h1><ul>
+    <content><![CDATA[<link rel="stylesheet" class="aplayer-secondary-style-marker" href="\assets\css\APlayer.min.css"><script src="\assets\js\APlayer.min.js" class="aplayer-secondary-script-marker"></script><h1 id="back2top"><a href="#back2top" class="headerlink" title="back2top"></a>back2top</h1><ul>
 <li>enable：开关</li>
 <li>sidebar：侧边栏是否开启返回顶部</li>
 <li>scrollpercent：文章浏览百分比是否开启</li>
 </ul>
 <h1 id="index-with-subtitle"><a href="#index-with-subtitle" class="headerlink" title="index_with_subtitle"></a>index_with_subtitle</h1><p>是否开启状态栏显示副标题</p>
-<h1 id=""><a href="#" class="headerlink" title=""></a></h1>]]></content>
+<h1 id=""><a href="#" class="headerlink" title=""></a></h1><p>hello <a href="https://scoheart.github.io/2021/03/10/2021-03-10-next%E9%85%8D%E7%BD%AE%E6%96%87%E4%BB%B6%E8%A7%A3%E8%AF%BB/">https://Scoheart.github.io/2021/03/10/2021-03-10-next配置文件解读/</a> bye</p>
+]]></content>
       <categories>
         <category>blog</category>
       </categories>
