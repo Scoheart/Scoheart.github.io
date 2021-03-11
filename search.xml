@@ -3,7 +3,7 @@
   <entry>
     <title>博客后续跟进</title>
     <url>/2021/03/08/2021-03-08-%E5%8D%9A%E5%AE%A2%E5%90%8E%E7%BB%AD%E8%B7%9F%E8%BF%9B/</url>
-    <content><![CDATA[<h1 id="添加分类"><a href="#添加分类" class="headerlink" title="添加分类"></a>添加分类</h1><ul>
+    <content><![CDATA[<link rel="stylesheet" class="aplayer-secondary-style-marker" href="\assets\css\APlayer.min.css"><script src="\assets\js\APlayer.min.js" class="aplayer-secondary-script-marker"></script><h1 id="添加分类"><a href="#添加分类" class="headerlink" title="添加分类"></a>添加分类</h1><ul>
 <li>根目录下 git bash</li>
 <li><code>hexo new page categories</code></li>
 <li>给文章加上categories: xxx</li>
@@ -57,6 +57,7 @@
 </code></pre>
 </li>
 </ul>
+<p>hello <a href="https://scoheart.github.io/2021/03/08/2021-03-08-%E5%8D%9A%E5%AE%A2%E5%90%8E%E7%BB%AD%E8%B7%9F%E8%BF%9B/">https://Scoheart.github.io/2021/03/08/2021-03-08-博客后续跟进/</a> bye</p>
 ]]></content>
       <categories>
         <category>blog</category>
@@ -264,7 +265,7 @@
   <entry>
     <title>Hexo配置文件解读</title>
     <url>/2021/03/09/2021-03-09-Hexo%E9%85%8D%E7%BD%AE%E6%96%87%E4%BB%B6%E8%A7%A3%E8%AF%BB/</url>
-    <content><![CDATA[<h1 id="Site"><a href="#Site" class="headerlink" title="#Site"></a>#Site</h1><ul>
+    <content><![CDATA[<link rel="stylesheet" class="aplayer-secondary-style-marker" href="\assets\css\APlayer.min.css"><script src="\assets\js\APlayer.min.js" class="aplayer-secondary-script-marker"></script><h1 id="Site"><a href="#Site" class="headerlink" title="#Site"></a>#Site</h1><ul>
 <li>title：博客标题，显示在浏览器状态栏</li>
 <li>subtitle：博客副标题</li>
 <li>description：博客描述，一句话之类的</li>
@@ -277,7 +278,10 @@
 <li>url：？</li>
 <li>permalink：？</li>
 </ul>
-<h1 id="Diretory"><a href="#Diretory" class="headerlink" title="#Diretory"></a>#Diretory</h1><h1 id="Writing"><a href="#Writing" class="headerlink" title="#Writing"></a>#Writing</h1><h1 id="Home-page-setting"><a href="#Home-page-setting" class="headerlink" title="#Home page setting"></a>#Home page setting</h1><ul>
+<h1 id="Diretory"><a href="#Diretory" class="headerlink" title="#Diretory"></a>#Diretory</h1><h1 id="Writing"><a href="#Writing" class="headerlink" title="#Writing"></a>#Writing</h1><ul>
+<li>post_asset_floder：</li>
+</ul>
+<h1 id="Home-page-setting"><a href="#Home-page-setting" class="headerlink" title="#Home page setting"></a>#Home page setting</h1><ul>
 <li>path：？</li>
 <li>per_page：博客每页展示的帖子数量</li>
 <li>order_by：博客帖子通过什么方式排序</li>
@@ -296,7 +300,8 @@
 <li>plugins：所下载的插件</li>
 <li>theme：所下载的主题</li>
 </ul>
-<h1 id="Deployment"><a href="#Deployment" class="headerlink" title="#Deployment"></a>#Deployment</h1>]]></content>
+<h1 id="Deployment"><a href="#Deployment" class="headerlink" title="#Deployment"></a>#Deployment</h1><p>hello <a href="https://scoheart.github.io/2021/03/09/2021-03-09-Hexo%E9%85%8D%E7%BD%AE%E6%96%87%E4%BB%B6%E8%A7%A3%E8%AF%BB/">https://Scoheart.github.io/2021/03/09/2021-03-09-Hexo配置文件解读/</a> bye</p>
+]]></content>
       <categories>
         <category>blog</category>
       </categories>
