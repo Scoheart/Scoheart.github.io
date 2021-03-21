@@ -263,4 +263,144 @@
         <tag>java</tag>
       </tags>
   </entry>
+  <entry>
+    <title>Pink Teacher</title>
+    <url>/2021/03/19/2021-03-19-Pink-teacher/</url>
+    <content><![CDATA[<link rel="stylesheet" class="aplayer-secondary-style-marker" href="\assets\css\APlayer.min.css"><script src="\assets\js\APlayer.min.js" class="aplayer-secondary-script-marker"></script><h1 id="Web标准"><a href="#Web标准" class="headerlink" title="Web标准"></a>Web标准</h1><ul>
+<li>结构 html</li>
+<li>表现 css</li>
+<li>行为 js</li>
+</ul>
+<h1 id="HTML"><a href="#HTML" class="headerlink" title="HTML"></a>HTML</h1><ul>
+<li>strong 加粗文本标签</li>
+<li>em 倾斜文本标签</li>
+<li>del 删除线标签</li>
+<li>ins 下划线标签</li>
+</ul>
+<p>盒子模型标签</p>
+<ul>
+<li>div <strong>division</strong> 大盒子 块元素</li>
+<li>span 小盒子  行内元素 </li>
+<li>img 图片标签</li>
+<li>a 超链接标签 <strong>anchor</strong></li>
+</ul>
+<blockquote>
+<p>href：hypertext reference 超文本引用</p>
+<p>URl：Uniform Resource Locator 统一资源定位器（网址）</p>
+<p>外部链接 外部网站</p>
+<blockquote>
+<p>baidu.com</p>
+</blockquote>
+<p>内部链接 内部网页</p>
+<blockquote>
+<p>index.html</p>
+</blockquote>
+<p>空链接 下载链接 网页元素链接（图片链接）</p>
+<blockquote>
+<p>锚点链接</p>
+</blockquote>
+</blockquote>
+<ul>
+<li>br 换行标签</li>
+<li>table 表格标签</li>
+<li>tr <strong>table row</strong>行</li>
+<li>td <strong>table data</strong>单元格</li>
+<li>th 表头单元格 colspan无效</li>
+</ul>
+<blockquote>
+<p>td&gt;tr*3 添加多个表格元素</p>
+</blockquote>
+<ul>
+<li><p>thead 表格头部</p>
+</li>
+<li><p>tbody 表格主体</p>
+</li>
+<li><p>ul 无序列表</p>
+</li>
+</ul>
+<blockquote>
+<p>li</p>
+</blockquote>
+<ul>
+<li>ol 有序列表</li>
+</ul>
+<blockquote>
+<p>li</p>
+</blockquote>
+<ul>
+<li>dl 自定义列表 <strong>definition list</strong></li>
+</ul>
+<blockquote>
+<p>dt <strong>definition title</strong> term</p>
+<blockquote>
+<p>dd <strong>definition desciption</strong></p>
+</blockquote>
+</blockquote>
+<p>本文源自于 <a href="https://scoheart.github.io/2021/03/19/2021-03-19-Pink-teacher/">https://Scoheart.github.io/2021/03/19/2021-03-19-Pink-teacher/</a> 未经原作者许可请勿转载！</p>
+]]></content>
+  </entry>
+  <entry>
+    <title>Mathematics</title>
+    <url>/2021/03/21/2021-03-21-mathematics/</url>
+    <content><![CDATA[<link rel="stylesheet" class="aplayer-secondary-style-marker" href="\assets\css\APlayer.min.css"><script src="\assets\js\APlayer.min.js" class="aplayer-secondary-script-marker"></script><h1 id="可分离变量"><a href="#可分离变量" class="headerlink" title="可分离变量"></a>可分离变量</h1><h1 id="齐次方程"><a href="#齐次方程" class="headerlink" title="齐次方程"></a>齐次方程</h1><h1 id="一阶线性微分方程"><a href="#一阶线性微分方程" class="headerlink" title="一阶线性微分方程"></a>一阶线性微分方程</h1><ul>
+<li>齐次</li>
+</ul>
+<p>$$<br>\frac{dy}{dx}+ P(x)y= 0<br>$$</p>
+<p>解法：</p>
+<blockquote>
+<p>公式：<br>$$<br>y= Ce^{-\int P(x)dx}<br>$$</p>
+</blockquote>
+<ul>
+<li>非齐次</li>
+</ul>
+<p>$$<br>\frac{dy}{dx}+ P(x)y= Q(x)<br>$$</p>
+<p>解法：</p>
+<blockquote>
+<p>公式：<br>$$<br>y= e^{-\int P(x)dx}(\int Q(x)e^ {\int P(x)dx}+ C)<br>$$</p>
+</blockquote>
+<h1 id="高阶"><a href="#高阶" class="headerlink" title="高阶"></a>高阶</h1><h1 id="常数系"><a href="#常数系" class="headerlink" title="常数系"></a>常数系</h1><ul>
+<li>齐次</li>
+<li>非齐次</li>
+</ul>
+<p>本文源自于 <a href="https://scoheart.github.io/2021/03/21/2021-03-21-mathematics/">https://Scoheart.github.io/2021/03/21/2021-03-21-mathematics/</a> 未经原作者许可请勿转载！</p>
+]]></content>
+  </entry>
+  <entry>
+    <title>Css</title>
+    <url>/2021/03/19/2021-03-19-Css/</url>
+    <content><![CDATA[<link rel="stylesheet" class="aplayer-secondary-style-marker" href="\assets\css\APlayer.min.css"><script src="\assets\js\APlayer.min.js" class="aplayer-secondary-script-marker"></script><h1 id="基础Css选择器"><a href="#基础Css选择器" class="headerlink" title="基础Css选择器"></a>基础Css选择器</h1><ul>
+<li>元素</li>
+<li>类</li>
+<li>id</li>
+<li>通配符</li>
+</ul>
+<h1 id="进阶选择器"><a href="#进阶选择器" class="headerlink" title="进阶选择器"></a>进阶选择器</h1><ul>
+<li>层级</li>
+</ul>
+<p>object_1 object_2{<br>}</p>
+<ul>
+<li>组合</li>
+</ul>
+<p>object_1, object_2{</p>
+<p>}</p>
+<ul>
+<li>伪元素</li>
+<li>伪类</li>
+</ul>
+<h1 id="Css属性"><a href="#Css属性" class="headerlink" title="Css属性"></a>Css属性</h1><ul>
+<li>border:border-width|border-style|border-color;</li>
+</ul>
+<h1 id="引入Css样式的method"><a href="#引入Css样式的method" class="headerlink" title="引入Css样式的method"></a>引入Css样式的method</h1><ul>
+<li>嵌入</li>
+<li>内联</li>
+<li>外部</li>
+</ul>
+<h1 id="盒子模型属性"><a href="#盒子模型属性" class="headerlink" title="盒子模型属性"></a>盒子模型属性</h1><ul>
+<li>边框 border</li>
+<li>外边距 margin</li>
+<li>内边距 padding</li>
+</ul>
+<p>本文源自于 <a href="https://scoheart.github.io/2021/03/19/2021-03-19-Css/">https://Scoheart.github.io/2021/03/19/2021-03-19-Css/</a> 未经原作者许可请勿转载！</p>
+]]></content>
+  </entry>
 </search>
