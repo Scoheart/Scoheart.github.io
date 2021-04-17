@@ -1,145 +1,116 @@
 <?xml version="1.0" encoding="utf-8"?>
 <search>
   <entry>
-    <title>Questions</title>
-    <url>/2021-04-17-questions/2021/04/17/</url>
-    <content><![CDATA[<link rel="stylesheet" class="aplayer-secondary-style-marker" href="\assets\css\APlayer.min.css"><script src="\assets\js\APlayer.min.js" class="aplayer-secondary-script-marker"></script><h1 id="问题一"><a href="#问题一" class="headerlink" title="问题一"></a>问题一</h1><p>yml json</p>
-<h1 id="写作"><a href="#写作" class="headerlink" title="写作"></a>写作</h1><ul>
-<li><p>模板 scaffold</p>
-</li>
-<li><p>front-matter</p>
+    <title>使用Hexo搭建个人博客</title>
+    <url>/2021-03-08-%E4%BD%BF%E7%94%A8hexo%E6%90%AD%E5%BB%BA%E4%B8%AA%E4%BA%BA%E5%8D%9A%E5%AE%A2/2021/03/08/</url>
+    <content><![CDATA[<link rel="stylesheet" class="aplayer-secondary-style-marker" href="\assets\css\APlayer.min.css"><script src="\assets\js\APlayer.min.js" class="aplayer-secondary-script-marker"></script><p>[toc]</p>
+<h1 id="一、安装Node-js"><a href="#一、安装Node-js" class="headerlink" title="一、安装Node.js"></a>一、安装Node.js</h1><h2 id="1、从官网下载并安装Node-js"><a href="#1、从官网下载并安装Node-js" class="headerlink" title="1、从官网下载并安装Node.js"></a>1、从官网下载并安装Node.js</h2><p>点击此处超链接前往官网下载  <a href="https://nodejs.org/zh-cn/">Node.js官方网站</a></p>
+<p><img src="/2021-03-08-%E4%BD%BF%E7%94%A8hexo%E6%90%AD%E5%BB%BA%E4%B8%AA%E4%BA%BA%E5%8D%9A%E5%AE%A2/2021/03/08/Node.js%E4%B8%8B%E8%BD%BD.png" alt="Node.js下载"></p>
+<h2 id="2、使用下面的命令行代码检查Node-js的安装"><a href="#2、使用下面的命令行代码检查Node-js的安装" class="headerlink" title="2、使用下面的命令行代码检查Node.js的安装"></a>2、使用下面的命令行代码检查Node.js的安装</h2><figure class="highlight bash"><table><tr><td class="code"><pre><span class="line">node -v </span><br></pre></td></tr></table></figure>
+
+<p><img src="/2021-03-08-%E4%BD%BF%E7%94%A8hexo%E6%90%AD%E5%BB%BA%E4%B8%AA%E4%BA%BA%E5%8D%9A%E5%AE%A2/2021/03/08/node-v.png" alt="node-v"></p>
+<h2 id="3、使用下面的命令行代码检查npm的安装"><a href="#3、使用下面的命令行代码检查npm的安装" class="headerlink" title="3、使用下面的命令行代码检查npm的安装"></a>3、使用下面的命令行代码检查npm的安装</h2><p>注：在安装Node.js的同时，由于npm的安装已经集成在了Node.js中，所以会直接安装好Node.js的包管理工具npm，我们可以先不深入了解npm是什么（当然，这不否认有兴趣的朋友可以自己去查阅资料了解什么是npm），只是在搭建博客过程中我们需要使用到它，所以需要检查它是否安装成功。</p>
+<figure class="highlight bash"><table><tr><td class="code"><pre><span class="line">npm -v</span><br></pre></td></tr></table></figure>
+
+<p><img src="/2021-03-08-%E4%BD%BF%E7%94%A8hexo%E6%90%AD%E5%BB%BA%E4%B8%AA%E4%BA%BA%E5%8D%9A%E5%AE%A2/2021/03/08/npm-v.png" alt="npm-v"></p>
+<hr>
+<h1 id="二、安装Git"><a href="#二、安装Git" class="headerlink" title="二、安装Git"></a>二、安装Git</h1><h2 id="1、从官网下载并安装Git"><a href="#1、从官网下载并安装Git" class="headerlink" title="1、从官网下载并安装Git"></a>1、从官网下载并安装Git</h2><p>点击此处超链接前往官网下载  <a href="https://git-scm.com/download/win">Git官方网站</a></p>
+<p><img src="/2021-03-08-%E4%BD%BF%E7%94%A8hexo%E6%90%AD%E5%BB%BA%E4%B8%AA%E4%BA%BA%E5%8D%9A%E5%AE%A2/2021/03/08/Git%E4%B8%8B%E8%BD%BD.png" alt="Git下载"></p>
+<h2 id="1、使用下面的命令行代码检查Git的安装"><a href="#1、使用下面的命令行代码检查Git的安装" class="headerlink" title="1、使用下面的命令行代码检查Git的安装"></a>1、使用下面的命令行代码检查Git的安装</h2><figure class="highlight bash"><table><tr><td class="code"><pre><span class="line">git --version</span><br></pre></td></tr></table></figure>
+
+<p><img src="/2021-03-08-%E4%BD%BF%E7%94%A8hexo%E6%90%AD%E5%BB%BA%E4%B8%AA%E4%BA%BA%E5%8D%9A%E5%AE%A2/2021/03/08/git--version.png" alt="git--version"></p>
+<hr>
+<h1 id="三、安装Hexo"><a href="#三、安装Hexo" class="headerlink" title="三、安装Hexo"></a>三、安装Hexo</h1><h2 id="1、使用下面的命令行代码下载Hexo"><a href="#1、使用下面的命令行代码下载Hexo" class="headerlink" title="1、使用下面的命令行代码下载Hexo"></a>1、使用下面的命令行代码下载Hexo</h2><figure class="highlight bash"><table><tr><td class="code"><pre><span class="line">npm install -g hexo-cli</span><br></pre></td></tr></table></figure>
+
+<p><img src="/2021-03-08-%E4%BD%BF%E7%94%A8hexo%E6%90%AD%E5%BB%BA%E4%B8%AA%E4%BA%BA%E5%8D%9A%E5%AE%A2/2021/03/08/hexo%E4%B8%8B%E8%BD%BD%E4%B8%AD.png" alt="hexo下载中"></p>
+<h2 id="2、使用下面的命令行代码检查Hexo的安装"><a href="#2、使用下面的命令行代码检查Hexo的安装" class="headerlink" title="2、使用下面的命令行代码检查Hexo的安装"></a>2、使用下面的命令行代码检查Hexo的安装</h2><figure class="highlight bash"><table><tr><td class="code"><pre><span class="line">hexo -v</span><br></pre></td></tr></table></figure>
+
+<p><img src="/2021-03-08-%E4%BD%BF%E7%94%A8hexo%E6%90%AD%E5%BB%BA%E4%B8%AA%E4%BA%BA%E5%8D%9A%E5%AE%A2/2021/03/08/hexo%E5%AE%89%E8%A3%85%E6%88%90%E5%8A%9F.png" alt="hexo安装成功"></p>
+<hr>
+<h1 id="四、初始化Hexo"><a href="#四、初始化Hexo" class="headerlink" title="四、初始化Hexo"></a>四、初始化Hexo</h1><h2 id="1、创建一个新的空文件夹作为博客的根目录"><a href="#1、创建一个新的空文件夹作为博客的根目录" class="headerlink" title="1、创建一个新的空文件夹作为博客的根目录"></a>1、创建一个新的空文件夹作为博客的根目录</h2><p><img src="/2021-03-08-%E4%BD%BF%E7%94%A8hexo%E6%90%AD%E5%BB%BA%E4%B8%AA%E4%BA%BA%E5%8D%9A%E5%AE%A2/2021/03/08/Myblog.png" alt="Myblog"></p>
+<h2 id="2、初始化该空文件夹为hexo博客的根目录"><a href="#2、初始化该空文件夹为hexo博客的根目录" class="headerlink" title="2、初始化该空文件夹为hexo博客的根目录"></a>2、初始化该空文件夹为hexo博客的根目录</h2><p>我们可以使用命令行、git bash等，这里我演示git bash。</p>
 <ul>
-<li><p>语法使用yml</p>
+<li><p>进入该空文件夹</p>
+</li>
+<li><p>打开git bash</p>
+<p><img src="/2021-03-08-%E4%BD%BF%E7%94%A8hexo%E6%90%AD%E5%BB%BA%E4%B8%AA%E4%BA%BA%E5%8D%9A%E5%AE%A2/2021/03/08/%E5%86%85%E9%83%A8gitbash.png" alt="内部gitbash"></p>
+<p><img src="/2021-03-08-%E4%BD%BF%E7%94%A8hexo%E6%90%AD%E5%BB%BA%E4%B8%AA%E4%BA%BA%E5%8D%9A%E5%AE%A2/2021/03/08/%E5%86%85%E9%83%A8gitbash2.png" alt="内部gitbash2"></p>
+</li>
+<li><p>使用下面的命令行代码初始化</p>
+<figure class="highlight bash"><table><tr><td class="code"><pre><span class="line">hexo init</span><br></pre></td></tr></table></figure>
+
+<p><img src="/2021-03-08-%E4%BD%BF%E7%94%A8hexo%E6%90%AD%E5%BB%BA%E4%B8%AA%E4%BA%BA%E5%8D%9A%E5%AE%A2/2021/03/08/%E5%88%9D%E5%A7%8B%E5%8C%96%E6%88%90%E5%8A%9F.png" alt="初始化成功"></p>
+</li>
+</ul>
+<h2 id="附：一键初始化"><a href="#附：一键初始化" class="headerlink" title="附：一键初始化"></a>附：一键初始化</h2><p>我们也可以简化命令，直接创建并初始化一个博客根目录</p>
+<ul>
+<li><p>在E盘下打开git bash</p>
+<p><img src="/2021-03-08-%E4%BD%BF%E7%94%A8hexo%E6%90%AD%E5%BB%BA%E4%B8%AA%E4%BA%BA%E5%8D%9A%E5%AE%A2/2021/03/08/%E4%B8%80%E9%94%AE%E5%88%9D%E5%A7%8B%E5%8C%96.png" alt="一键初始化"></p>
+</li>
+<li><p>运行命令</p>
+<p><img src="/2021-03-08-%E4%BD%BF%E7%94%A8hexo%E6%90%AD%E5%BB%BA%E4%B8%AA%E4%BA%BA%E5%8D%9A%E5%AE%A2/2021/03/08/%E4%B8%80%E9%94%AE%E5%88%9D%E5%A7%8B%E5%8C%96%E6%88%90%E5%8A%9F.png" alt="一键初始化成功"></p>
+<p><img src="/2021-03-08-%E4%BD%BF%E7%94%A8hexo%E6%90%AD%E5%BB%BA%E4%B8%AA%E4%BA%BA%E5%8D%9A%E5%AE%A2/2021/03/08/%E4%B8%80%E9%94%AE%E5%88%9D%E5%A7%8B%E5%8C%96%E7%9B%AE%E5%BD%95.png" alt="一键初始化目录"></p>
+</li>
+</ul>
+<p>这样我们就完成了博客的搭建。</p>
+<p>上述演示中，应该要注意的是</p>
+<ul>
+<li><strong>初始化的文件夹的路径是随意的</strong>：你可以在你的D盘，E盘，甚至F盘中创建并初始化一个文件夹为hexo根目录。</li>
+<li><strong>初始化的文件夹也是随意的</strong>：例如我可以选择我在E盘下创建的Myblog文件夹初始化，也可以选择在Myblog文件夹中再创建一个子文件夹来初始化作为hexo根目录</li>
+</ul>
+<hr>
+<h1 id="五、个人博客页面生成及预览"><a href="#五、个人博客页面生成及预览" class="headerlink" title="五、个人博客页面生成及预览"></a>五、个人博客页面生成及预览</h1><h2 id="1、使用下面的命令行代码生成博客静态页面"><a href="#1、使用下面的命令行代码生成博客静态页面" class="headerlink" title="1、使用下面的命令行代码生成博客静态页面"></a>1、使用下面的命令行代码生成博客静态页面</h2><figure class="highlight bash"><table><tr><td class="code"><pre><span class="line">hexo generate</span><br></pre></td></tr></table></figure>
+
+<p><img src="/2021-03-08-%E4%BD%BF%E7%94%A8hexo%E6%90%AD%E5%BB%BA%E4%B8%AA%E4%BA%BA%E5%8D%9A%E5%AE%A2/2021/03/08/hexo_generate.png" alt="hexo_generate"></p>
+<h2 id="2、使用下面的命令行代码启动服务器"><a href="#2、使用下面的命令行代码启动服务器" class="headerlink" title="2、使用下面的命令行代码启动服务器"></a>2、使用下面的命令行代码启动服务器</h2><figure class="highlight plain"><table><tr><td class="code"><pre><span class="line">hexo server</span><br></pre></td></tr></table></figure>
+
+<p><img src="/2021-03-08-%E4%BD%BF%E7%94%A8hexo%E6%90%AD%E5%BB%BA%E4%B8%AA%E4%BA%BA%E5%8D%9A%E5%AE%A2/2021/03/08/hexo_server.png" alt="hexo_server"></p>
+<h2 id="3、本地预览静态博客页面"><a href="#3、本地预览静态博客页面" class="headerlink" title="3、本地预览静态博客页面"></a>3、本地预览静态博客页面</h2><p>浏览器输入<a href="http://localhost:4000/">http://localhost:4000</a>预览我们的博客页面</p>
+<p><img src="/2021-03-08-%E4%BD%BF%E7%94%A8hexo%E6%90%AD%E5%BB%BA%E4%B8%AA%E4%BA%BA%E5%8D%9A%E5%AE%A2/2021/03/08/%E5%8D%9A%E5%AE%A2%E9%A2%84%E8%A7%88.png" alt="博客预览"></p>
+<hr>
+<h1 id="六、部署博客页面至远端"><a href="#六、部署博客页面至远端" class="headerlink" title="六、部署博客页面至远端"></a>六、部署博客页面至远端</h1><p>以上我们预览的博客只能是我们自己访问，然而，我们建立博客的意图当然不只是为了自己访问，而是希望能被更多人看到，互相学习交流，所以现在我们来实现博客的部署，从而让更多人能够看到我们的博客。（这里我将以Github Pages实现，当然，这只是其中一种，还有多种方法有兴趣的朋友可以自行深入了解）</p>
+<h2 id="1、创建一个Github账户"><a href="#1、创建一个Github账户" class="headerlink" title="1、创建一个Github账户"></a>1、创建一个Github账户</h2><p>如何创建github仓库我就暂时不赘述了，如果有需要请留言给我，日后也会补齐。</p>
+<h2 id="2、新建一个Github仓库"><a href="#2、新建一个Github仓库" class="headerlink" title="2、新建一个Github仓库"></a>2、新建一个Github仓库</h2><p><img src="/2021-03-08-%E4%BD%BF%E7%94%A8hexo%E6%90%AD%E5%BB%BA%E4%B8%AA%E4%BA%BA%E5%8D%9A%E5%AE%A2/2021/03/08/github_new_repo.png" alt="github_new_repo"></p>
+<p><img src="/2021-03-08-%E4%BD%BF%E7%94%A8hexo%E6%90%AD%E5%BB%BA%E4%B8%AA%E4%BA%BA%E5%8D%9A%E5%AE%A2/2021/03/08/github_new_repo2.png" alt="github_new_repo2"></p>
+<h2 id="3、使用下面的命令行代码生成SSH秘钥"><a href="#3、使用下面的命令行代码生成SSH秘钥" class="headerlink" title="3、使用下面的命令行代码生成SSH秘钥"></a>3、使用下面的命令行代码生成SSH秘钥</h2><figure class="highlight bash"><table><tr><td class="code"><pre><span class="line">git config --global user.name <span class="string">&quot;yourname&quot;</span></span><br><span class="line">git config --global user.email <span class="string">&quot;youremail&quot;</span></span><br><span class="line">ssh-keygen -t rsa -C <span class="string">&quot;youremail&quot;</span></span><br></pre></td></tr></table></figure>
+
+<p>注：可使用下面的命令行代码检查账户邮箱输入</p>
+<figure class="highlight bash"><table><tr><td class="code"><pre><span class="line">git config user.name</span><br><span class="line">git config user.email</span><br></pre></td></tr></table></figure>
+
+<p><img src="/2021-03-08-%E4%BD%BF%E7%94%A8hexo%E6%90%AD%E5%BB%BA%E4%B8%AA%E4%BA%BA%E5%8D%9A%E5%AE%A2/2021/03/08/git.png" alt="git"></p>
+<p>之后一直按回车键就可以</p>
+<p><img src="/2021-03-08-%E4%BD%BF%E7%94%A8hexo%E6%90%AD%E5%BB%BA%E4%B8%AA%E4%BA%BA%E5%8D%9A%E5%AE%A2/2021/03/08/git2.png" alt="git2"></p>
+<p><img src="/2021-03-08-%E4%BD%BF%E7%94%A8hexo%E6%90%AD%E5%BB%BA%E4%B8%AA%E4%BA%BA%E5%8D%9A%E5%AE%A2/2021/03/08/git3.png" alt="git3"></p>
+<p>直到出现下图，便成功生成ssh密钥</p>
+<p><img src="/2021-03-08-%E4%BD%BF%E7%94%A8hexo%E6%90%AD%E5%BB%BA%E4%B8%AA%E4%BA%BA%E5%8D%9A%E5%AE%A2/2021/03/08/git4.png" alt="git4"></p>
+<h2 id="4、从本地获取秘钥"><a href="#4、从本地获取秘钥" class="headerlink" title="4、从本地获取秘钥"></a>4、从本地获取秘钥</h2><p>本地路径为：C/Users（用户）/yourname（你的用户名）/.ssh/id_rsa.pub</p>
+<p><img src="/2021-03-08-%E4%BD%BF%E7%94%A8hexo%E6%90%AD%E5%BB%BA%E4%B8%AA%E4%BA%BA%E5%8D%9A%E5%AE%A2/2021/03/08/ssh.png" alt="ssh"></p>
+<p><img src="/2021-03-08-%E4%BD%BF%E7%94%A8hexo%E6%90%AD%E5%BB%BA%E4%B8%AA%E4%BA%BA%E5%8D%9A%E5%AE%A2/2021/03/08/ssh2.png" alt="ssh2"></p>
+<h2 id="5、将秘钥粘贴至Github"><a href="#5、将秘钥粘贴至Github" class="headerlink" title="5、将秘钥粘贴至Github"></a>5、将秘钥粘贴至Github</h2><p><img src="/2021-03-08-%E4%BD%BF%E7%94%A8hexo%E6%90%AD%E5%BB%BA%E4%B8%AA%E4%BA%BA%E5%8D%9A%E5%AE%A2/2021/03/08/ssh3.png" alt="ssh3"></p>
+<p><img src="/2021-03-08-%E4%BD%BF%E7%94%A8hexo%E6%90%AD%E5%BB%BA%E4%B8%AA%E4%BA%BA%E5%8D%9A%E5%AE%A2/2021/03/08/ssh4.png" alt="ssh4"></p>
+<p><img src="/2021-03-08-%E4%BD%BF%E7%94%A8hexo%E6%90%AD%E5%BB%BA%E4%B8%AA%E4%BA%BA%E5%8D%9A%E5%AE%A2/2021/03/08/ssh5.png" alt="ssh5"></p>
+<p>注：使用下面的代码检查秘钥的上传</p>
+<figure class="highlight bash"><table><tr><td class="code"><pre><span class="line">ssh -T git@github.com</span><br></pre></td></tr></table></figure>
+
+<p><img src="/2021-03-08-%E4%BD%BF%E7%94%A8hexo%E6%90%AD%E5%BB%BA%E4%B8%AA%E4%BA%BA%E5%8D%9A%E5%AE%A2/2021/03/08/ssh6.png" alt="ssh6"></p>
+<h2 id="6、修改站点配置文件中的deploy"><a href="#6、修改站点配置文件中的deploy" class="headerlink" title="6、修改站点配置文件中的deploy"></a>6、修改站点配置文件中的deploy</h2><p><img src="/2021-03-08-%E4%BD%BF%E7%94%A8hexo%E6%90%AD%E5%BB%BA%E4%B8%AA%E4%BA%BA%E5%8D%9A%E5%AE%A2/2021/03/08/deploy.png" alt="deploy"></p>
+<figure class="highlight yaml"><table><tr><td class="code"><pre><span class="line"><span class="attr">deploy:</span></span><br><span class="line">	<span class="attr">type:</span> <span class="string">git</span></span><br><span class="line">	<span class="attr">repo:</span> <span class="string">https://github.com/yourname/yourname.github.io.git</span></span><br><span class="line">	<span class="attr">branch:</span> <span class="string">main</span></span><br></pre></td></tr></table></figure>
+
+<p>安装deploy-git</p>
+<p><code>npm install hexo-deployer-git --save</code></p>
+<p>部署博客至Github</p>
+<p><code>hexo generate</code></p>
+<p><code>hexo deploy</code></p>
+<ul>
+<li><strong><strong>以此网页地址进入博客页面</strong></strong></li>
+</ul>
 <blockquote>
-<p>tags:</p>
-<p> -1</p>
-<p> -2</p>
+<p><strong><a href="https://yourname.github.io/">https://yourname.github.io</a></strong></p>
 </blockquote>
-</li>
-</ul>
-</li>
-<li></li>
-</ul>
-<p>本文源自于 <a href="https://scoheart.github.io/2021-04-17-questions/2021/04/17/">https://Scoheart.github.io/2021-04-17-questions/2021/04/17/</a> 未经原作者许可请勿转载！</p>
-]]></content>
-  </entry>
-  <entry>
-    <title>Hexo Config配置文件解读</title>
-    <url>/2021-03-09-Hexo%E9%85%8D%E7%BD%AE%E6%96%87%E4%BB%B6%E8%A7%A3%E8%AF%BB/2021/03/09/</url>
-    <content><![CDATA[<link rel="stylesheet" class="aplayer-secondary-style-marker" href="\assets\css\APlayer.min.css"><script src="\assets\js\APlayer.min.js" class="aplayer-secondary-script-marker"></script><h1 id="Site"><a href="#Site" class="headerlink" title="Site"></a>Site</h1><blockquote>
-<p>网站配置</p>
-</blockquote>
-<ul>
-<li>title：网站（博客）标题，显示在浏览器状态栏</li>
-<li>subtitle：网站副标题</li>
-</ul>
-<p><img src="C:\Users\admin\AppData\Roaming\Typora\typora-user-images\image-20210417015851933.png" alt="image-20210417015851933"></p>
-<ul>
-<li>description：网站描述</li>
-<li>keywords：网站的关键字</li>
-<li>author：作者名 你可以使用你的真实姓名、笔名等等作为博客文章的发布者</li>
-<li>language： 网站使用的语言 中文、英文等语言</li>
-<li>timezone：网站使用的时区</li>
-</ul>
-<h1 id="URL"><a href="#URL" class="headerlink" title="URL"></a>URL</h1><blockquote>
-<p>网址配置 </p>
-<p>URL（Uniform Resource Locator）统一资源定位器 即 网址</p>
-</blockquote>
-<ul>
-<li>url：网址</li>
-<li>root：网站根目录</li>
-<li>permalink：博客文章永久链接格式</li>
-<li>permalink_defaults</li>
-<li>pretty_urls<ul>
-<li>trailing_index：</li>
-<li>trailing_html：</li>
-</ul>
-</li>
-</ul>
-<h1 id="Diretory"><a href="#Diretory" class="headerlink" title="Diretory"></a>Diretory</h1><blockquote>
-<p>目录配置</p>
-</blockquote>
-<ul>
-<li>source_dir</li>
-<li>pubilc_dir</li>
-<li>tag_dir</li>
-<li>archive_dir</li>
-<li>category_dir</li>
-<li>code_dir</li>
-<li>i18n_dir</li>
-<li>skip_render</li>
-</ul>
-<h1 id="Writing"><a href="#Writing" class="headerlink" title="Writing"></a>Writing</h1><blockquote>
-<p>文章配置</p>
-</blockquote>
-<ul>
-<li><p>new_post_ name</p>
-</li>
-<li><p>default_layout</p>
-</li>
-<li><p>auto_spacing</p>
-</li>
-<li><p>titlecase：将文章中的英文单词首字母大写</p>
-<blockquote>
-<p>默认值：false</p>
-</blockquote>
-</li>
-<li><p>external_link</p>
-<ul>
-<li>enable</li>
-<li>field</li>
-<li>exclude</li>
-</ul>
-</li>
-<li><p>filename_case</p>
-</li>
-<li><p>render_drafts：是否显示草稿文件夹中的文章</p>
-<blockquote>
-<p>默认值：false</p>
-</blockquote>
-</li>
-<li><p>post_asset_floder：</p>
-</li>
-<li><p>relative_link</p>
-</li>
-<li><p>future</p>
-</li>
-<li><p>highlight</p>
-</li>
-<li><p>prismjs</p>
-</li>
-</ul>
-<h1 id="Home-page-setting"><a href="#Home-page-setting" class="headerlink" title="Home page setting"></a>Home page setting</h1><ul>
-<li>index_generator<ul>
-<li>path：？</li>
-<li>per_page：博客每页展示的帖子数量</li>
-<li>order_by：博客帖子通过什么方式排序</li>
-<li>pagination_dir</li>
-</ul>
-</li>
-</ul>
-<h1 id="Category-amp-Tags"><a href="#Category-amp-Tags" class="headerlink" title="Category &amp; Tags"></a>Category &amp; Tags</h1><ul>
-<li>default_category：</li>
-<li>category_map：</li>
-<li>tag_map：</li>
-</ul>
-<h1 id="Metadata-elements"><a href="#Metadata-elements" class="headerlink" title="Metadata elements"></a>Metadata elements</h1><ul>
-<li>meta_generator</li>
-</ul>
-<h1 id="Date-Time-format"><a href="#Date-Time-format" class="headerlink" title="Date / Time format"></a>Date / Time format</h1><ul>
-<li>date_format：日期格式设置</li>
-<li>time_format：时间格式设置</li>
-<li>update_option：</li>
-</ul>
-<h1 id="Pagination"><a href="#Pagination" class="headerlink" title="Pagination"></a>Pagination</h1><ul>
-<li>per_page</li>
-<li>pagination_dir</li>
-</ul>
-<h1 id="Include-Exclude-files"><a href="#Include-Exclude-files" class="headerlink" title="Include / Exclude files"></a>Include / Exclude files</h1><h1 id="Extensions"><a href="#Extensions" class="headerlink" title="Extensions"></a>Extensions</h1><ul>
-<li>plugins：所下载的插件</li>
-<li>theme：所下载的主题</li>
-</ul>
-<h1 id="Deployment"><a href="#Deployment" class="headerlink" title="Deployment"></a>Deployment</h1><p>本文源自于 <a href="https://scoheart.github.io/2021-03-09-Hexo%E9%85%8D%E7%BD%AE%E6%96%87%E4%BB%B6%E8%A7%A3%E8%AF%BB/2021/03/09/">https://Scoheart.github.io/2021-03-09-Hexo配置文件解读/2021/03/09/</a> 未经原作者许可请勿转载！</p>
+<hr>
+<h1 id="附：如何使用命令行"><a href="#附：如何使用命令行" class="headerlink" title="附：如何使用命令行"></a>附：如何使用命令行</h1><h2 id="1、按住快捷键-Win-R-在电脑屏幕左下角出现运行提示"><a href="#1、按住快捷键-Win-R-在电脑屏幕左下角出现运行提示" class="headerlink" title="1、按住快捷键 Win+R 在电脑屏幕左下角出现运行提示"></a>1、按住快捷键 Win+R 在电脑屏幕左下角出现运行提示</h2><p><img src="/2021-03-08-%E4%BD%BF%E7%94%A8hexo%E6%90%AD%E5%BB%BA%E4%B8%AA%E4%BA%BA%E5%8D%9A%E5%AE%A2/2021/03/08/%E8%BF%90%E8%A1%8Ccmd.png" alt="运行cmd"></p>
+<h2 id="2、运行界面"><a href="#2、运行界面" class="headerlink" title="2、运行界面"></a>2、运行界面</h2><p><img src="/2021-03-08-%E4%BD%BF%E7%94%A8hexo%E6%90%AD%E5%BB%BA%E4%B8%AA%E4%BA%BA%E5%8D%9A%E5%AE%A2/2021/03/08/cmd%E7%95%8C%E9%9D%A2.png" alt="cmd界面"></p>
+<h2 id="3、键盘敲下代码指令以实现命令"><a href="#3、键盘敲下代码指令以实现命令" class="headerlink" title="3、键盘敲下代码指令以实现命令"></a>3、键盘敲下代码指令以实现命令</h2><p>本文源自于 <a href="https://scoheart.github.io/2021-03-08-%E4%BD%BF%E7%94%A8hexo%E6%90%AD%E5%BB%BA%E4%B8%AA%E4%BA%BA%E5%8D%9A%E5%AE%A2/2021/03/08/">https://Scoheart.github.io/2021-03-08-使用hexo搭建个人博客/2021/03/08/</a> 转载请注明出处，谢谢！</p>
 ]]></content>
       <categories>
         <category>blog</category>
