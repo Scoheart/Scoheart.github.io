@@ -23,4 +23,126 @@
 <p>本文源自于 <a href="https://scoheart.github.io/2021-04-17-questions/2021/04/17/">https://Scoheart.github.io/2021-04-17-questions/2021/04/17/</a> 未经原作者许可请勿转载！</p>
 ]]></content>
   </entry>
+  <entry>
+    <title>Hexo Config配置文件解读</title>
+    <url>/2021-03-09-Hexo%E9%85%8D%E7%BD%AE%E6%96%87%E4%BB%B6%E8%A7%A3%E8%AF%BB/2021/03/09/</url>
+    <content><![CDATA[<link rel="stylesheet" class="aplayer-secondary-style-marker" href="\assets\css\APlayer.min.css"><script src="\assets\js\APlayer.min.js" class="aplayer-secondary-script-marker"></script><h1 id="Site"><a href="#Site" class="headerlink" title="Site"></a>Site</h1><blockquote>
+<p>网站配置</p>
+</blockquote>
+<ul>
+<li>title：网站（博客）标题，显示在浏览器状态栏</li>
+<li>subtitle：网站副标题</li>
+</ul>
+<p><img src="C:\Users\admin\AppData\Roaming\Typora\typora-user-images\image-20210417015851933.png" alt="image-20210417015851933"></p>
+<ul>
+<li>description：网站描述</li>
+<li>keywords：网站的关键字</li>
+<li>author：作者名 你可以使用你的真实姓名、笔名等等作为博客文章的发布者</li>
+<li>language： 网站使用的语言 中文、英文等语言</li>
+<li>timezone：网站使用的时区</li>
+</ul>
+<h1 id="URL"><a href="#URL" class="headerlink" title="URL"></a>URL</h1><blockquote>
+<p>网址配置 </p>
+<p>URL（Uniform Resource Locator）统一资源定位器 即 网址</p>
+</blockquote>
+<ul>
+<li>url：网址</li>
+<li>root：网站根目录</li>
+<li>permalink：博客文章永久链接格式</li>
+<li>permalink_defaults</li>
+<li>pretty_urls<ul>
+<li>trailing_index：</li>
+<li>trailing_html：</li>
+</ul>
+</li>
+</ul>
+<h1 id="Diretory"><a href="#Diretory" class="headerlink" title="Diretory"></a>Diretory</h1><blockquote>
+<p>目录配置</p>
+</blockquote>
+<ul>
+<li>source_dir</li>
+<li>pubilc_dir</li>
+<li>tag_dir</li>
+<li>archive_dir</li>
+<li>category_dir</li>
+<li>code_dir</li>
+<li>i18n_dir</li>
+<li>skip_render</li>
+</ul>
+<h1 id="Writing"><a href="#Writing" class="headerlink" title="Writing"></a>Writing</h1><blockquote>
+<p>文章配置</p>
+</blockquote>
+<ul>
+<li><p>new_post_ name</p>
+</li>
+<li><p>default_layout</p>
+</li>
+<li><p>auto_spacing</p>
+</li>
+<li><p>titlecase：将文章中的英文单词首字母大写</p>
+<blockquote>
+<p>默认值：false</p>
+</blockquote>
+</li>
+<li><p>external_link</p>
+<ul>
+<li>enable</li>
+<li>field</li>
+<li>exclude</li>
+</ul>
+</li>
+<li><p>filename_case</p>
+</li>
+<li><p>render_drafts：是否显示草稿文件夹中的文章</p>
+<blockquote>
+<p>默认值：false</p>
+</blockquote>
+</li>
+<li><p>post_asset_floder：</p>
+</li>
+<li><p>relative_link</p>
+</li>
+<li><p>future</p>
+</li>
+<li><p>highlight</p>
+</li>
+<li><p>prismjs</p>
+</li>
+</ul>
+<h1 id="Home-page-setting"><a href="#Home-page-setting" class="headerlink" title="Home page setting"></a>Home page setting</h1><ul>
+<li>index_generator<ul>
+<li>path：？</li>
+<li>per_page：博客每页展示的帖子数量</li>
+<li>order_by：博客帖子通过什么方式排序</li>
+<li>pagination_dir</li>
+</ul>
+</li>
+</ul>
+<h1 id="Category-amp-Tags"><a href="#Category-amp-Tags" class="headerlink" title="Category &amp; Tags"></a>Category &amp; Tags</h1><ul>
+<li>default_category：</li>
+<li>category_map：</li>
+<li>tag_map：</li>
+</ul>
+<h1 id="Metadata-elements"><a href="#Metadata-elements" class="headerlink" title="Metadata elements"></a>Metadata elements</h1><ul>
+<li>meta_generator</li>
+</ul>
+<h1 id="Date-Time-format"><a href="#Date-Time-format" class="headerlink" title="Date / Time format"></a>Date / Time format</h1><ul>
+<li>date_format：日期格式设置</li>
+<li>time_format：时间格式设置</li>
+<li>update_option：</li>
+</ul>
+<h1 id="Pagination"><a href="#Pagination" class="headerlink" title="Pagination"></a>Pagination</h1><ul>
+<li>per_page</li>
+<li>pagination_dir</li>
+</ul>
+<h1 id="Include-Exclude-files"><a href="#Include-Exclude-files" class="headerlink" title="Include / Exclude files"></a>Include / Exclude files</h1><h1 id="Extensions"><a href="#Extensions" class="headerlink" title="Extensions"></a>Extensions</h1><ul>
+<li>plugins：所下载的插件</li>
+<li>theme：所下载的主题</li>
+</ul>
+<h1 id="Deployment"><a href="#Deployment" class="headerlink" title="Deployment"></a>Deployment</h1><p>本文源自于 <a href="https://scoheart.github.io/2021-03-09-Hexo%E9%85%8D%E7%BD%AE%E6%96%87%E4%BB%B6%E8%A7%A3%E8%AF%BB/2021/03/09/">https://Scoheart.github.io/2021-03-09-Hexo配置文件解读/2021/03/09/</a> 未经原作者许可请勿转载！</p>
+]]></content>
+      <categories>
+        <category>blog</category>
+      </categories>
+  </entry>
 </search>
