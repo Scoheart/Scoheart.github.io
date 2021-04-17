@@ -16,7 +16,7 @@
 <hr>
 <h1 id="二、安装Git"><a href="#二、安装Git" class="headerlink" title="二、安装Git"></a>二、安装Git</h1><h2 id="1、从官网下载并安装Git"><a href="#1、从官网下载并安装Git" class="headerlink" title="1、从官网下载并安装Git"></a>1、从官网下载并安装Git</h2><p>点击此处超链接前往官网下载  <a href="https://git-scm.com/download/win">Git官方网站</a></p>
 <p><img src="/hexo+github%E6%90%AD%E5%BB%BA%E4%B8%AA%E4%BA%BA%E5%8D%9A%E5%AE%A2/2021/03/08/Git%E4%B8%8B%E8%BD%BD.png" alt="Git下载"></p>
-<h2 id="1、使用下面的命令行代码检查Git的安装"><a href="#1、使用下面的命令行代码检查Git的安装" class="headerlink" title="1、使用下面的命令行代码检查Git的安装"></a>1、使用下面的命令行代码检查Git的安装</h2><figure class="highlight bash"><table><tr><td class="code"><pre><span class="line">git --version</span><br></pre></td></tr></table></figure>
+<h2 id="2、使用下面的命令行代码检查Git的安装"><a href="#2、使用下面的命令行代码检查Git的安装" class="headerlink" title="2、使用下面的命令行代码检查Git的安装"></a>2、使用下面的命令行代码检查Git的安装</h2><figure class="highlight bash"><table><tr><td class="code"><pre><span class="line">git --version</span><br></pre></td></tr></table></figure>
 
 <p><img src="/hexo+github%E6%90%AD%E5%BB%BA%E4%B8%AA%E4%BA%BA%E5%8D%9A%E5%AE%A2/2021/03/08/git--version.png" alt="git--version"></p>
 <hr>
@@ -110,5 +110,8 @@
       <categories>
         <category>博客</category>
       </categories>
+      <tags>
+        <tag>hexo</tag>
+      </tags>
   </entry>
 </search>
